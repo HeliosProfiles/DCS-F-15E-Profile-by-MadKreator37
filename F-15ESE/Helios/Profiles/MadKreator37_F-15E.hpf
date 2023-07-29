@@ -1,0 +1,1284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HeliosProfile>
+  <Version>3</Version>
+  <Monitors>
+    <Monitor>
+      <Location>0,0</Location>
+      <Size>1920,1080</Size>
+      <Hidden>False</Hidden>
+      <Orientation>DMDO_DEFAULT</Orientation>
+      <AlwaysOnTop>True</AlwaysOnTop>
+      <Background />
+      <Children>
+        <Control TypeIdentifier="Helios.Panel" Name="Pilot Background" SnapTarget="True" Locked="True">
+          <Location>0,0</Location>
+          <Size>1920,1080</Size>
+          <Hidden>False</Hidden>
+          <Background>
+            <Image>MK37\F-15E\Main_Background.png</Image>
+            <ImageAlignment>Stretched</ImageAlignment>
+          </Background>
+          <Interaction>
+            <AllowInteractionFull>False</AllowInteractionFull>
+            <AllowInteractionNone>True</AllowInteractionNone>
+            <AllowInteractionLegacy>False</AllowInteractionLegacy>
+          </Interaction>
+          <Children />
+        </Control>
+        <Control TypeIdentifier="Helios.Panel" Name="Pilot Controls" SnapTarget="True" Locked="True">
+          <Location>2,0</Location>
+          <Size>1915,1075</Size>
+          <Hidden>False</Hidden>
+          <Background />
+          <Interaction>
+            <AllowInteractionFull>False</AllowInteractionFull>
+            <AllowInteractionNone>True</AllowInteractionNone>
+            <AllowInteractionLegacy>False</AllowInteractionLegacy>
+          </Interaction>
+          <Children>
+            <Control TypeIdentifier="Helios.F15E.MPD.PilotRight" Name="Right MPD (Pilot)" SnapTarget="True" Locked="False">
+              <Location>1207,171</Location>
+              <Size>520,520</Size>
+              <Hidden>False</Hidden>
+              <EmbeddedViewportName>F_15E_RIGHT_MPD_PLT</EmbeddedViewportName>
+              <GlassReflectionOpacity>0.0490589711417815</GlassReflectionOpacity>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.F15E.MPD.PilotLeft" Name="Left MPD (Pilot)" SnapTarget="True" Locked="False">
+              <Location>180,167</Location>
+              <Size>520,520</Size>
+              <Hidden>False</Hidden>
+              <EmbeddedViewportName>F_15E_LEFT_MPD_PLT</EmbeddedViewportName>
+              <GlassReflectionOpacity>0.0587105491747897</GlassReflectionOpacity>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Panel" Name="AoA Panel" SnapTarget="True" Locked="False">
+              <Location>179,875</Location>
+              <Size>200,200</Size>
+              <Hidden>False</Hidden>
+              <Background />
+              <Interaction>
+                <AllowInteractionFull>False</AllowInteractionFull>
+                <AllowInteractionNone>True</AllowInteractionNone>
+                <AllowInteractionLegacy>False</AllowInteractionLegacy>
+              </Interaction>
+              <Children>
+                <Control TypeIdentifier="Helios.F15E.Instruments.AoA.Gauge.Pilot" Name="AoA Gauge (Pilot)" SnapTarget="True" Locked="True">
+                  <Location>23,24</Location>
+                  <Size>154,154</Size>
+                  <Hidden>False</Hidden>
+                  <GlassReflectionOpacity>0.3</GlassReflectionOpacity>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.Image" Name="Generic Bezel" SnapTarget="False" Locked="True">
+                  <Image>{F-15E}/Images/Bezels_and_Faces/Generic_Bezel.png</Image>
+                  <Alignment>Stretched</Alignment>
+                  <CornerRadius>0</CornerRadius>
+                  <Location>5,8</Location>
+                  <Size>190,190</Size>
+                  <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+              </Children>
+            </Control>
+            <Control TypeIdentifier="Helios.Panel" Name="VVI Panel" SnapTarget="True" Locked="False">
+              <Location>371,875</Location>
+              <Size>200,200</Size>
+              <Hidden>False</Hidden>
+              <Background />
+              <Interaction>
+                <AllowInteractionFull>False</AllowInteractionFull>
+                <AllowInteractionNone>True</AllowInteractionNone>
+                <AllowInteractionLegacy>False</AllowInteractionLegacy>
+              </Interaction>
+              <Children>
+                <Control TypeIdentifier="Helios.F15E.Instruments.VVI.Pilot" Name="VVI Gauge (Pilot)" SnapTarget="True" Locked="True">
+                  <Location>23,25</Location>
+                  <Size>154,154</Size>
+                  <Hidden>False</Hidden>
+                  <GlassReflectionOpacity>0.3</GlassReflectionOpacity>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image" SnapTarget="False" Locked="True">
+                  <Image>MK37\Round_Shadow.png</Image>
+                  <Alignment>Stretched</Alignment>
+                  <CornerRadius>0</CornerRadius>
+                  <DefaultOpacity>0.5</DefaultOpacity>
+                  <Interaction>
+                    <AllowInteraction>False</AllowInteraction>
+                  </Interaction>
+                  <Location>23,25</Location>
+                  <Size>153,153</Size>
+                  <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.Image" Name="Generic Bezel" SnapTarget="False" Locked="True">
+                  <Image>{F-15E}/Images/Bezels_and_Faces/Generic_Bezel.png</Image>
+                  <Alignment>Stretched</Alignment>
+                  <CornerRadius>0</CornerRadius>
+                  <Location>5,9</Location>
+                  <Size>190,190</Size>
+                  <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+              </Children>
+            </Control>
+            <Control TypeIdentifier="Helios.Panel" Name="Airspeed Panel" SnapTarget="True" Locked="False">
+              <Location>178,684</Location>
+              <Size>200,200</Size>
+              <Hidden>False</Hidden>
+              <Background />
+              <Interaction>
+                <AllowInteractionFull>False</AllowInteractionFull>
+                <AllowInteractionNone>True</AllowInteractionNone>
+                <AllowInteractionLegacy>False</AllowInteractionLegacy>
+              </Interaction>
+              <Children>
+                <Control TypeIdentifier="Helios.F15E.Instruments.IAS.Pilot" Name="IAS Gauge (Pilot)" SnapTarget="True" Locked="True">
+                  <Location>26,25</Location>
+                  <Size>149,149</Size>
+                  <Hidden>False</Hidden>
+                  <GlassReflectionOpacity>0.3</GlassReflectionOpacity>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.Image" Name="Airspeed Bezel" SnapTarget="False" Locked="True">
+                  <Image>{F-15E}/Images/Bezels_and_Faces/Airspeed_Bezel.png</Image>
+                  <Alignment>Stretched</Alignment>
+                  <CornerRadius>0</CornerRadius>
+                  <Location>5,5</Location>
+                  <Size>190,190</Size>
+                  <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+              </Children>
+            </Control>
+            <Control TypeIdentifier="Helios.Panel" Name="Altimeter Panel" SnapTarget="True" Locked="False">
+              <Location>562,684</Location>
+              <Size>200,200</Size>
+              <Hidden>False</Hidden>
+              <Background />
+              <Interaction>
+                <AllowInteractionFull>True</AllowInteractionFull>
+                <AllowInteractionNone>False</AllowInteractionNone>
+                <AllowInteractionLegacy>False</AllowInteractionLegacy>
+              </Interaction>
+              <Children>
+                <Control TypeIdentifier="Helios.F15E.Instruments.BAltimeter.Pilot" Name="Barometric Alimeter Gauge (Pilot)" SnapTarget="True" Locked="True">
+                  <Location>27,25</Location>
+                  <Size>148,148</Size>
+                  <Hidden>False</Hidden>
+                  <GlassReflectionOpacity>0.3</GlassReflectionOpacity>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.Image" Name="Image" SnapTarget="False" Locked="True">
+                  <Image>{F-15E}/Images/Bezels_and_Faces/Altimeter_Bezel.png</Image>
+                  <Alignment>Stretched</Alignment>
+                  <CornerRadius>0</CornerRadius>
+                  <Location>5,5</Location>
+                  <Size>190,190</Size>
+                  <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.RotaryEncoder" Name="Pressure Adjust" SnapTarget="True" Locked="True">
+                  <Location>15,148</Location>
+                  <Size>48,48</Size>
+                  <Hidden>False</Hidden>
+                  <KnobImage>{F-15E}/Images/Knobs/QFE_Knob.png</KnobImage>
+                  <RotationStep>5</RotationStep>
+                  <StepValue>0.1</StepValue>
+                  <InitialRotation>0</InitialRotation>
+                  <ClickType>
+                    <Type>Swipe</Type>
+                    <Sensitivity>-0.348484848484848</Sensitivity>
+                  </ClickType>
+                  <Children />
+                </Control>
+              </Children>
+            </Control>
+            <Control TypeIdentifier="Helios.F15E.Instruments.CabinPressure.Pilot" Name="Cabin Pressure Gauge (Pilot)" SnapTarget="True" Locked="False">
+              <Location>1225,901</Location>
+              <Size>152,152</Size>
+              <Hidden>False</Hidden>
+              <GlassReflectionOpacity>0.3</GlassReflectionOpacity>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.F15E.EngineMonitorPanel" Name="Engine Monitor Panel" SnapTarget="True" Locked="False">
+              <Location>1399,793</Location>
+              <Size>302,281</Size>
+              <Hidden>False</Hidden>
+              <GlassReflectionOpacity>0.381237332303831</GlassReflectionOpacity>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Image" Name="Image 2 1" SnapTarget="False" Locked="False">
+              <Image>{F-15E}/Images/Bezels_and_Faces/Generic_Bezel.png</Image>
+              <Alignment>Stretched</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <Location>1206,884</Location>
+              <Size>190,190</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Image" Name="Image 9" SnapTarget="False" Locked="False">
+              <Image>MK37\F-15E\Bezels_and_Faces\DTM_Receptacle.png</Image>
+              <Alignment>Stretched</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <Location>1437,702</Location>
+              <Size>385,81</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Image" Name="Image 14" SnapTarget="False" Locked="False">
+              <Image>{F-15E}/Images/Bezels_and_Faces/Hyd_Bezel.png</Image>
+              <Alignment>Stretched</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <Location>1736,426</Location>
+              <Size>162,145</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.F15E.Clock.Pilot" Name="Clock (Pilot)" SnapTarget="True" Locked="False">
+              <Location>1231,717</Location>
+              <Size>140,140</Size>
+              <Hidden>False</Hidden>
+              <BackgroundImage>MK37\F-15E\Main_Background.png</BackgroundImage>
+              <GlassReflectionOpacity>0.324389537689412</GlassReflectionOpacity>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.F15E.Instruments.HydraulicPressure.Utility" Name="Hydraulic Pressure Gauge (Utility)" SnapTarget="True" Locked="False">
+              <Location>1778,455</Location>
+              <Size>78,78</Size>
+              <Hidden>False</Hidden>
+              <GlassReflectionOpacity>0.3</GlassReflectionOpacity>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.F15E.Instruments.HydraulicPressure.PC2" Name="Hydraulic Pressure Gauge (PC2)" SnapTarget="True" Locked="False">
+              <Location>1825,582</Location>
+              <Size>78,78</Size>
+              <Hidden>False</Hidden>
+              <GlassReflectionOpacity>0.3</GlassReflectionOpacity>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.F15E.Instruments.HydraulicPressure.PC1" Name="Hydraulic Pressure Gauge (PC1)" SnapTarget="True" Locked="False">
+              <Location>1737,582</Location>
+              <Size>78,78</Size>
+              <Hidden>False</Hidden>
+              <GlassReflectionOpacity>0.3</GlassReflectionOpacity>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Image" Name="Image 15" SnapTarget="False" Locked="False">
+              <Image>{F-15E}/Images/Bezels_and_Faces/Hydraulic_Pressure_Trim_Ring.png</Image>
+              <Alignment>Stretched</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <Location>1736,578</Location>
+              <Size>83,83</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Image" Name="Image 16" SnapTarget="False" Locked="False">
+              <Image>{F-15E}/Images/Bezels_and_Faces/Clock_Bezel.png</Image>
+              <Alignment>Stretched</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <Location>1207,693</Location>
+              <Size>190,190</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Image" Name="Image 15 1" SnapTarget="False" Locked="False">
+              <Image>{F-15E}/Images/Bezels_and_Faces/Hydraulic_Pressure_Trim_Ring.png</Image>
+              <Alignment>Stretched</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <Location>1824,578</Location>
+              <Size>83,83</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Image" Name="Image 15 1 1" SnapTarget="False" Locked="False">
+              <Image>{F-15E}/Images/Bezels_and_Faces/Hydraulic_Pressure_Trim_Ring.png</Image>
+              <Alignment>Stretched</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <Location>1776,451</Location>
+              <Size>83,83</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Panel" Name="ADI Panel" SnapTarget="True" Locked="False">
+              <Location>375,689</Location>
+              <Size>200,200</Size>
+              <Hidden>False</Hidden>
+              <Background />
+              <Interaction>
+                <AllowInteractionFull>True</AllowInteractionFull>
+                <AllowInteractionNone>False</AllowInteractionNone>
+                <AllowInteractionLegacy>False</AllowInteractionLegacy>
+              </Interaction>
+              <Children>
+                <Control TypeIdentifier="Helios.F15E.Instruments.ADI.Pilot" Name="ADI Gauge (Pilot)" SnapTarget="True" Locked="False">
+                  <Location>16,17</Location>
+                  <Size>156,156</Size>
+                  <Hidden>False</Hidden>
+                  <GlassReflectionOpacity>0.122956000547974</GlassReflectionOpacity>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="shadow" SnapTarget="False" Locked="False">
+                  <Image>MK37\F-15E\Gauges\ADI_Shadow.png</Image>
+                  <Alignment>Stretched</Alignment>
+                  <CornerRadius>0</CornerRadius>
+                  <DefaultOpacity>0.130315602018255</DefaultOpacity>
+                  <Interaction>
+                    <AllowInteraction>False</AllowInteraction>
+                  </Interaction>
+                  <Location>18,19</Location>
+                  <Size>153,152</Size>
+                  <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.Image" Name="ADI Bezel" SnapTarget="False" Locked="False">
+                  <Image>{F-15E}/Images/Bezels_and_Faces/ADI_Bezel.png</Image>
+                  <Alignment>Stretched</Alignment>
+                  <CornerRadius>0</CornerRadius>
+                  <Location>0,0</Location>
+                  <Size>190,190</Size>
+                  <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.Potentiometer" Name="Waterline Adjust" SnapTarget="True" Locked="False">
+                  <Location>147,141</Location>
+                  <Size>56,56</Size>
+                  <Hidden>False</Hidden>
+                  <KnobImage>{F-15E}/Images/Knobs/ADI_Knob.png</KnobImage>
+                  <InitialValue>0</InitialValue>
+                  <StepValue>0.05</StepValue>
+                  <MaxValue>1</MaxValue>
+                  <MinValue>-1</MinValue>
+                  <InitialRotation>319.43661971831</InitialRotation>
+                  <RotationTravel>80.281690140845</RotationTravel>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.PushButton" Name="Uncage Button" SnapTarget="True" Locked="False">
+                  <Location>161,156</Location>
+                  <Size>28,28</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>{F-15E}/Images/Knobs/ADI_Knob_Center_Norm.png</Image>
+                  <PushedImage>{F-15E}/Images/Knobs/ADI_Knob_Center_Pulled.png</PushedImage>
+                  <Children />
+                </Control>
+              </Children>
+            </Control>
+            <Control TypeIdentifier="Helios.F15E.FuelPanel.Pilot" Name="Fuel Monitor Panel" SnapTarget="True" Locked="False">
+              <Location>1704,794</Location>
+              <Size>205,280</Size>
+              <Hidden>False</Hidden>
+              <GlassReflectionOpacity>0.3</GlassReflectionOpacity>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Panel" Name="Master Caution" SnapTarget="True" Locked="False">
+              <Location>525,98</Location>
+              <Size>79,53</Size>
+              <Hidden>False</Hidden>
+              <Background />
+              <Interaction>
+                <AllowInteractionFull>True</AllowInteractionFull>
+                <AllowInteractionNone>False</AllowInteractionNone>
+                <AllowInteractionLegacy>False</AllowInteractionLegacy>
+              </Interaction>
+              <Children>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="Master caution" SnapTarget="True" Locked="True">
+                  <IndicatorOnImage>{F-15E}/Images/Buttons/Master_Cauton_Button_Norm_Lit.png</IndicatorOnImage>
+                  <PushedIndicatorOnImage>{F-15E}/Images/Buttons/Master_Cauton_Button_Pressed_Off.png</PushedIndicatorOnImage>
+                  <OnTextColor>#FFB3A229</OnTextColor>
+                  <Location>3,3</Location>
+                  <Size>73,48</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>{F-15E}/Images/Buttons/Master_Cauton_Button_Norm_Off.png</Image>
+                  <PushedImage>{F-15E}/Images/Buttons/Master_Cauton_Button_Pressed_Off.png</PushedImage>
+                  <Children />
+                </Control>
+              </Children>
+            </Control>
+            <Control TypeIdentifier="Helios.Panel" Name="EMIS" SnapTarget="True" Locked="False">
+              <Location>385,97</Location>
+              <Size>89,53</Size>
+              <Hidden>False</Hidden>
+              <Background />
+              <Interaction>
+                <AllowInteractionFull>True</AllowInteractionFull>
+                <AllowInteractionNone>False</AllowInteractionNone>
+                <AllowInteractionLegacy>False</AllowInteractionLegacy>
+              </Interaction>
+              <Children>
+                <Control TypeIdentifier="Helios.Base.Image" Name="EMIS Housing" SnapTarget="False" Locked="True">
+                  <Image>{F-15E}/Images/Bezels_and_Faces/EMIS_Limit_Housing.png</Image>
+                  <Alignment>Stretched</Alignment>
+                  <CornerRadius>0</CornerRadius>
+                  <Location>3,3</Location>
+                  <Size>83,45</Size>
+                  <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.Indicator" Name="EMIS Limit Ind" SnapTarget="True" Locked="True">
+                  <OnImage>{F-15E}/Images/Indicators/EMIS_Limit_Ind.png</OnImage>
+                  <OffImage>{Helios}/Images/TransparentImage.png</OffImage>
+                  <Font>
+                    <FontFamily>Franklin Gothic</FontFamily>
+                    <FontStyle>Normal</FontStyle>
+                    <FontWeight>Normal</FontWeight>
+                    <FontSize>9.36</FontSize>
+                    <HorizontalAlignment>Center</HorizontalAlignment>
+                    <VerticalAlignment>Center</VerticalAlignment>
+                    <Padding>
+                      <Left>0</Left>
+                      <Top>0</Top>
+                      <Right>0</Right>
+                      <Bottom>0</Bottom>
+                    </Padding>
+                  </Font>
+                  <Text />
+                  <OnTextColor>#FFB3A229</OnTextColor>
+                  <OffTextColor>#FF1C1C1C</OffTextColor>
+                  <ScalingMode>Height</ScalingMode>
+                  <Location>6,7</Location>
+                  <Size>75,39</Size>
+                  <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+              </Children>
+            </Control>
+            <Control TypeIdentifier="Helios.Panel" Name="General Ind Panel" SnapTarget="True" Locked="False">
+              <Location>1734,279</Location>
+              <Size>95,150</Size>
+              <Hidden>False</Hidden>
+              <Background />
+              <Interaction>
+                <AllowInteractionFull>True</AllowInteractionFull>
+                <AllowInteractionNone>False</AllowInteractionNone>
+                <AllowInteractionLegacy>False</AllowInteractionLegacy>
+              </Interaction>
+              <Children>
+                <Control TypeIdentifier="Helios.Base.Image" Name="Image 8" SnapTarget="False" Locked="True">
+                  <Image>MK37\F-15E\Bezels_And_Faces\General_Indicator_Panel.png</Image>
+                  <Alignment>Stretched</Alignment>
+                  <CornerRadius>0</CornerRadius>
+                  <Location>1,1</Location>
+                  <Size>94,144</Size>
+                  <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.Indicator" Name="AP" SnapTarget="True" Locked="True">
+                  <OnImage>{F-15E}/Images/Indicators/AP.png</OnImage>
+                  <OffImage>{Helios}/Images/TransparentImage.png</OffImage>
+                  <Font>
+                    <FontFamily>Franklin Gothic</FontFamily>
+                    <FontStyle>Normal</FontStyle>
+                    <FontWeight>Normal</FontWeight>
+                    <FontSize>5.6</FontSize>
+                    <HorizontalAlignment>Center</HorizontalAlignment>
+                    <VerticalAlignment>Center</VerticalAlignment>
+                    <Padding>
+                      <Left>0</Left>
+                      <Top>0</Top>
+                      <Right>0</Right>
+                      <Bottom>0</Bottom>
+                    </Padding>
+                  </Font>
+                  <Text />
+                  <OnTextColor>#FFB3A229</OnTextColor>
+                  <OffTextColor>#FF1C1C1C</OffTextColor>
+                  <ScalingMode>Height</ScalingMode>
+                  <Location>54,103</Location>
+                  <Size>35,35</Size>
+                  <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.Indicator" Name="Laser" SnapTarget="True" Locked="True">
+                  <OnImage>{F-15E}/Images/Indicators/Laser_Armed.png</OnImage>
+                  <OffImage>{Helios}/Images/TransparentImage.png</OffImage>
+                  <Font>
+                    <FontFamily>Franklin Gothic</FontFamily>
+                    <FontStyle>Normal</FontStyle>
+                    <FontWeight>Normal</FontWeight>
+                    <FontSize>5.6</FontSize>
+                    <HorizontalAlignment>Center</HorizontalAlignment>
+                    <VerticalAlignment>Center</VerticalAlignment>
+                    <Padding>
+                      <Left>0</Left>
+                      <Top>0</Top>
+                      <Right>0</Right>
+                      <Bottom>0</Bottom>
+                    </Padding>
+                  </Font>
+                  <Text />
+                  <OnTextColor>#FFB3A229</OnTextColor>
+                  <OffTextColor>#FF1C1C1C</OffTextColor>
+                  <ScalingMode>Height</ScalingMode>
+                  <Location>6,103</Location>
+                  <Size>35,35</Size>
+                  <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+              </Children>
+            </Control>
+            <Control TypeIdentifier="Helios.Panel" Name="Threat Ind Panel" SnapTarget="True" Locked="False">
+              <Location>1247,40</Location>
+              <Size>291,129</Size>
+              <Hidden>False</Hidden>
+              <Background />
+              <Interaction>
+                <AllowInteractionFull>False</AllowInteractionFull>
+                <AllowInteractionNone>True</AllowInteractionNone>
+                <AllowInteractionLegacy>False</AllowInteractionLegacy>
+              </Interaction>
+              <Children>
+                <Control TypeIdentifier="Helios.Base.Image" Name="Threat Housing" SnapTarget="False" Locked="True">
+                  <Image>MK37\F-15E\Bezels_And_Faces\Threat_Indicator_Panel.png</Image>
+                  <Alignment>Stretched</Alignment>
+                  <CornerRadius>0</CornerRadius>
+                  <Location>2,2</Location>
+                  <Size>287,123</Size>
+                  <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.Indicator" Name="Low Alt" SnapTarget="True" Locked="True">
+                  <OnImage>{F-15E}/Images/Indicators/LOW_ALT.png</OnImage>
+                  <OffImage>{Helios}/Images/TransparentImage.png</OffImage>
+                  <Font>
+                    <FontFamily>Franklin Gothic</FontFamily>
+                    <FontStyle>Normal</FontStyle>
+                    <FontWeight>Normal</FontWeight>
+                    <FontSize>6.24</FontSize>
+                    <HorizontalAlignment>Center</HorizontalAlignment>
+                    <VerticalAlignment>Center</VerticalAlignment>
+                    <Padding>
+                      <Left>0</Left>
+                      <Top>0</Top>
+                      <Right>0</Right>
+                      <Bottom>0</Bottom>
+                    </Padding>
+                  </Font>
+                  <Text />
+                  <OnTextColor>#FFB3A229</OnTextColor>
+                  <OffTextColor>#FF1C1C1C</OffTextColor>
+                  <ScalingMode>Height</ScalingMode>
+                  <Location>69,75</Location>
+                  <Size>39,39</Size>
+                  <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.Indicator" Name="OBST" SnapTarget="True" Locked="True">
+                  <OnImage>{F-15E}/Images/Indicators/OBST.png</OnImage>
+                  <OffImage>{Helios}/Images/TransparentImage.png</OffImage>
+                  <Font>
+                    <FontFamily>Franklin Gothic</FontFamily>
+                    <FontStyle>Normal</FontStyle>
+                    <FontWeight>Normal</FontWeight>
+                    <FontSize>6.24</FontSize>
+                    <HorizontalAlignment>Center</HorizontalAlignment>
+                    <VerticalAlignment>Center</VerticalAlignment>
+                    <Padding>
+                      <Left>0</Left>
+                      <Top>0</Top>
+                      <Right>0</Right>
+                      <Bottom>0</Bottom>
+                    </Padding>
+                  </Font>
+                  <Text />
+                  <OnTextColor>#FFB3A229</OnTextColor>
+                  <OffTextColor>#FF1C1C1C</OffTextColor>
+                  <ScalingMode>Height</ScalingMode>
+                  <Location>125,75</Location>
+                  <Size>39,39</Size>
+                  <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.Indicator" Name="TF Tail" SnapTarget="True" Locked="True">
+                  <OnImage>{F-15E}/Images/Indicators/TF_FAIL.png</OnImage>
+                  <OffImage>{Helios}/Images/TransparentImage.png</OffImage>
+                  <Font>
+                    <FontFamily>Franklin Gothic</FontFamily>
+                    <FontStyle>Normal</FontStyle>
+                    <FontWeight>Normal</FontWeight>
+                    <FontSize>6.24</FontSize>
+                    <HorizontalAlignment>Center</HorizontalAlignment>
+                    <VerticalAlignment>Center</VerticalAlignment>
+                    <Padding>
+                      <Left>0</Left>
+                      <Top>0</Top>
+                      <Right>0</Right>
+                      <Bottom>0</Bottom>
+                    </Padding>
+                  </Font>
+                  <Text />
+                  <OnTextColor>#FFB3A229</OnTextColor>
+                  <OffTextColor>#FF1C1C1C</OffTextColor>
+                  <ScalingMode>Height</ScalingMode>
+                  <Location>183,75</Location>
+                  <Size>39,39</Size>
+                  <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.Indicator" Name="Can" SnapTarget="True" Locked="True">
+                  <OnImage>{F-15E}/Images/Indicators/CAN_UNLKD.png</OnImage>
+                  <OffImage>{Helios}/Images/TransparentImage.png</OffImage>
+                  <Font>
+                    <FontFamily>Franklin Gothic</FontFamily>
+                    <FontStyle>Normal</FontStyle>
+                    <FontWeight>Normal</FontWeight>
+                    <FontSize>6.24</FontSize>
+                    <HorizontalAlignment>Center</HorizontalAlignment>
+                    <VerticalAlignment>Center</VerticalAlignment>
+                    <Padding>
+                      <Left>0</Left>
+                      <Top>0</Top>
+                      <Right>0</Right>
+                      <Bottom>0</Bottom>
+                    </Padding>
+                  </Font>
+                  <Text />
+                  <OnTextColor>#FFB3A229</OnTextColor>
+                  <OffTextColor>#FF1C1C1C</OffTextColor>
+                  <ScalingMode>Height</ScalingMode>
+                  <Location>241,75</Location>
+                  <Size>39,39</Size>
+                  <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.Indicator" Name="AI" SnapTarget="True" Locked="True">
+                  <OnImage>{F-15E}/Images/Indicators/AI.png</OnImage>
+                  <OffImage>{Helios}/Images/TransparentImage.png</OffImage>
+                  <Font>
+                    <FontFamily>Franklin Gothic</FontFamily>
+                    <FontStyle>Normal</FontStyle>
+                    <FontWeight>Normal</FontWeight>
+                    <FontSize>2.72</FontSize>
+                    <HorizontalAlignment>Center</HorizontalAlignment>
+                    <VerticalAlignment>Center</VerticalAlignment>
+                    <Padding>
+                      <Left>0</Left>
+                      <Top>0</Top>
+                      <Right>0</Right>
+                      <Bottom>0</Bottom>
+                    </Padding>
+                  </Font>
+                  <Text />
+                  <OnTextColor>#FFB3A229</OnTextColor>
+                  <OffTextColor>#FF1C1C1C</OffTextColor>
+                  <ScalingMode>Height</ScalingMode>
+                  <Location>11,72</Location>
+                  <Size>38,17</Size>
+                  <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.Indicator" Name="SAM" SnapTarget="True" Locked="True">
+                  <OnImage>{F-15E}/Images/Indicators/SAM.png</OnImage>
+                  <OffImage>{Helios}/Images/TransparentImage.png</OffImage>
+                  <Font>
+                    <FontFamily>Franklin Gothic</FontFamily>
+                    <FontStyle>Normal</FontStyle>
+                    <FontWeight>Normal</FontWeight>
+                    <FontSize>2.72</FontSize>
+                    <HorizontalAlignment>Center</HorizontalAlignment>
+                    <VerticalAlignment>Center</VerticalAlignment>
+                    <Padding>
+                      <Left>0</Left>
+                      <Top>0</Top>
+                      <Right>0</Right>
+                      <Bottom>0</Bottom>
+                    </Padding>
+                  </Font>
+                  <Text />
+                  <OnTextColor>#FFB3A229</OnTextColor>
+                  <OffTextColor>#FF1C1C1C</OffTextColor>
+                  <ScalingMode>Height</ScalingMode>
+                  <Location>11,97</Location>
+                  <Size>38,17</Size>
+                  <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+              </Children>
+            </Control>
+            <Control TypeIdentifier="Helios.Panel" Name="ARMT Panel" SnapTarget="True" Locked="False">
+              <Location>0,686</Location>
+              <Size>185,389</Size>
+              <Hidden>False</Hidden>
+              <Background />
+              <Interaction>
+                <AllowInteractionFull>False</AllowInteractionFull>
+                <AllowInteractionNone>True</AllowInteractionNone>
+                <AllowInteractionLegacy>False</AllowInteractionLegacy>
+              </Interaction>
+              <Children>
+                <Control TypeIdentifier="Helios.Base.Image" Name="ARMT" SnapTarget="False" Locked="False">
+                  <Image>MK37\F-15E\Bezels_And_Faces/ARMT_Panel.png</Image>
+                  <Alignment>Stretched</Alignment>
+                  <CornerRadius>0</CornerRadius>
+                  <Location>5,0</Location>
+                  <Size>177,389</Size>
+                  <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="Jett Sel" SnapTarget="True" Locked="False">
+                  <Location>12,53</Location>
+                  <Size>124,124</Size>
+                  <Hidden>False</Hidden>
+                  <KnobImage>{F-15E}/Images/ARMTPanel/Select_Jett_Knob.png</KnobImage>
+                  <Positions>
+                    <Position Name="" Rotation="297.366143192779" />
+                    <Position Name="" Rotation="331.198219364412" />
+                    <Position Name="" Rotation="2.98256460986761" />
+                    <Position Name="" Rotation="34.7223939656238" />
+                    <Position Name="" Rotation="66.7738345492766" />
+                    <Position Name="" Rotation="95.264003956968" />
+                    <Position Name="" Rotation="121.083219982688" />
+                  </Positions>
+                  <DefaultPosition>4</DefaultPosition>
+                  <Labels>
+                    <Color>#FFFFFFFF</Color>
+                    <MaxWidth>40</MaxWidth>
+                    <MaxHeight>0</MaxHeight>
+                    <Distance>1</Distance>
+                    <FontFamily>Franklin Gothic</FontFamily>
+                    <FontStyle>Normal</FontStyle>
+                    <FontWeight>Normal</FontWeight>
+                    <FontSize>15.6631578947368</FontSize>
+                    <HorizontalAlignment>Center</HorizontalAlignment>
+                    <VerticalAlignment>Top</VerticalAlignment>
+                    <Padding>
+                      <Left>0</Left>
+                      <Top>0</Top>
+                      <Right>0</Right>
+                      <Bottom>0</Bottom>
+                    </Padding>
+                  </Labels>
+                  <ClickType>
+                    <Type>Touch</Type>
+                  </ClickType>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.PushButton" Name="Jett Button" SnapTarget="True" Locked="False">
+                  <Location>45,85</Location>
+                  <Size>57,57</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>{F-15E}/Images/ARMTPanel/Select_Jett_Button_Norm.png</Image>
+                  <PushedImage>{F-15E}/Images/ARMTPanel/Select_Jett_Button_Pressed.png</PushedImage>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Master Arm" SnapTarget="True" Locked="False">
+                  <Location>95,209</Location>
+                  <Size>44,88</Size>
+                  <Hidden>False</Hidden>
+                  <SwitchType>OnOn</SwitchType>
+                  <Orientation>Vertical</Orientation>
+                  <ClickType>Swipe</ClickType>
+                  <PositionOneImage>{F-15E}/Images/ARMTPanel/Master_Arm_Up.png</PositionOneImage>
+                  <PositionTwoImage>{F-15E}/Images/ARMTPanel/Master_Arm_Down.png</PositionTwoImage>
+                  <DefaultPosition>Two</DefaultPosition>
+                  <Children />
+                </Control>
+              </Children>
+            </Control>
+            <Control TypeIdentifier="Helios.F15E.MPD.PilotCenter" Name="Center MPCD (Pilot)" SnapTarget="True" Locked="False">
+              <Location>756,677</Location>
+              <Size>398,398</Size>
+              <Hidden>False</Hidden>
+              <EmbeddedViewportName>F_15E_CENTER_MPCD_PLT</EmbeddedViewportName>
+              <GlassReflectionOpacity>0.0442331821252772</GlassReflectionOpacity>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Panel" Name="Fire Panel" SnapTarget="True" Locked="False">
+              <Location>2,331</Location>
+              <Size>170,334</Size>
+              <Hidden>False</Hidden>
+              <Background />
+              <Interaction>
+                <AllowInteractionFull>False</AllowInteractionFull>
+                <AllowInteractionNone>True</AllowInteractionNone>
+                <AllowInteractionLegacy>False</AllowInteractionLegacy>
+              </Interaction>
+              <Children>
+                <Control TypeIdentifier="Helios.Base.Image" Name="Fire Panel" SnapTarget="False" Locked="False">
+                  <Image>MK37\F-15E\Fire_Test_Panel\Fire_Test_Panel.png</Image>
+                  <Alignment>Stretched</Alignment>
+                  <CornerRadius>0</CornerRadius>
+                  <Location>0,0</Location>
+                  <Size>170,289</Size>
+                  <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Fire Switch" SnapTarget="True" Locked="False">
+                  <Location>96,18</Location>
+                  <Size>37,88</Size>
+                  <Hidden>False</Hidden>
+                  <SwitchType>MomOnMom</SwitchType>
+                  <Orientation>Vertical</Orientation>
+                  <ClickType>Swipe</ClickType>
+                  <PositionOneImage>{F-15E}/Images/AMAD/AMADDischargeSwitch_Up.png</PositionOneImage>
+                  <PositionTwoImage>{F-15E}/Images/AMAD/AMADDischargeSwitch_Mid.png</PositionTwoImage>
+                  <PositionThreeImage>{F-15E}/Images/AMAD/AMADDischargeSwitch_Down.png</PositionThreeImage>
+                  <DefaultPosition>Two</DefaultPosition>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="AMAD Button" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>{F-15E}/Images/AMAD/AMADExtinguisher_On_Lit.png</IndicatorOnImage>
+                  <PushedIndicatorOnImage>{F-15E}/Images/AMAD/AMADExtinguisher_During_Press_Lit.png</PushedIndicatorOnImage>
+                  <OnTextColor>#FFB3A229</OnTextColor>
+                  <Location>59,142</Location>
+                  <Size>52,46</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Toggle</Type>
+                  <Image>{F-15E}/Images/AMAD/AMADExtinguisher_Norm.png</Image>
+                  <PushedImage>{F-15E}/Images/AMAD/AMADExtinguisher_During_Press_Off.png</PushedImage>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="ENG R Button" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>{F-15E}/Images/AMAD/AMADExtinguisher_On_Lit.png</IndicatorOnImage>
+                  <PushedIndicatorOnImage>{F-15E}/Images/AMAD/AMADExtinguisher_During_Press_Lit.png</PushedIndicatorOnImage>
+                  <OnTextColor>#FFB3A229</OnTextColor>
+                  <Location>15,229</Location>
+                  <Size>52,46</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>{F-15E}/Images/AMAD/AMADExtinguisher_Norm.png</Image>
+                  <PushedImage>{Helios}/Images/Indicators/caution-indicator-off-pushed.png</PushedImage>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="ENG L Button" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>{F-15E}/Images/AMAD/AMADExtinguisher_On_Lit.png</IndicatorOnImage>
+                  <PushedIndicatorOnImage>{F-15E}/Images/AMAD/AMADExtinguisher_During_Press_Lit.png</PushedIndicatorOnImage>
+                  <OnTextColor>#FFB3A229</OnTextColor>
+                  <Location>105,229</Location>
+                  <Size>52,46</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>{F-15E}/Images/AMAD/AMADExtinguisher_Norm.png</Image>
+                  <PushedImage>{Helios}/Images/Indicators/caution-indicator-off-pushed.png</PushedImage>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.Image" Name="Burn Thru Housing L" SnapTarget="False" Locked="False">
+                  <Image>{F-15E}/Images/AMAD/Burn_Thru_Indicator_Housing.png</Image>
+                  <Alignment>Stretched</Alignment>
+                  <CornerRadius>0</CornerRadius>
+                  <Location>11,303</Location>
+                  <Size>60,30</Size>
+                  <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.Indicator" Name="Burn thru ind" SnapTarget="True" Locked="False">
+                  <OnImage>{F-15E}/Images/AMAD/Engine_Burn_Thru_L.png</OnImage>
+                  <OffImage>{Helios}/Images/TransparentImage.png</OffImage>
+                  <Font>
+                    <FontFamily>Franklin Gothic</FontFamily>
+                    <FontStyle>Normal</FontStyle>
+                    <FontWeight>Normal</FontWeight>
+                    <FontSize>4.8</FontSize>
+                    <HorizontalAlignment>Center</HorizontalAlignment>
+                    <VerticalAlignment>Center</VerticalAlignment>
+                    <Padding>
+                      <Left>0</Left>
+                      <Top>0</Top>
+                      <Right>0</Right>
+                      <Bottom>0</Bottom>
+                    </Padding>
+                  </Font>
+                  <Text />
+                  <OnTextColor>#FFB3A229</OnTextColor>
+                  <OffTextColor>#FF1C1C1C</OffTextColor>
+                  <ScalingMode>Height</ScalingMode>
+                  <Location>16,309</Location>
+                  <Size>48,20</Size>
+                  <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.Image" Name="Burn Thru Housing " SnapTarget="False" Locked="False">
+                  <Image>{F-15E}/Images/AMAD/Burn_Thru_Indicator_Housing.png</Image>
+                  <Alignment>Stretched</Alignment>
+                  <CornerRadius>0</CornerRadius>
+                  <Location>102,303</Location>
+                  <Size>60,30</Size>
+                  <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.Indicator" Name="Burn thru ind R" SnapTarget="True" Locked="False">
+                  <OnImage>{F-15E}/Images/AMAD/Engine_Burn_Thru_R.png</OnImage>
+                  <OffImage>{Helios}/Images/TransparentImage.png</OffImage>
+                  <Font>
+                    <FontFamily>Franklin Gothic</FontFamily>
+                    <FontStyle>Normal</FontStyle>
+                    <FontWeight>Normal</FontWeight>
+                    <FontSize>4.8</FontSize>
+                    <HorizontalAlignment>Center</HorizontalAlignment>
+                    <VerticalAlignment>Center</VerticalAlignment>
+                    <Padding>
+                      <Left>0</Left>
+                      <Top>0</Top>
+                      <Right>0</Right>
+                      <Bottom>0</Bottom>
+                    </Padding>
+                  </Font>
+                  <Text />
+                  <OnTextColor>#FFB3A229</OnTextColor>
+                  <OffTextColor>#FF1C1C1C</OffTextColor>
+                  <ScalingMode>Height</ScalingMode>
+                  <Location>107,309</Location>
+                  <Size>48,20</Size>
+                  <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.GuardedSwitch" Name="Guard AMAD" SnapTarget="True" Locked="False">
+                  <Location>54,120</Location>
+                  <Size>64,78</Size>
+                  <Hidden>False</Hidden>
+                  <SwitchType>OnOn</SwitchType>
+                  <Orientation>Vertical</Orientation>
+                  <ClickType>Swipe</ClickType>
+                  <GuardUp>
+                    <PositionOneImage>{F-15E}/Images/AMAD/AMADFire_CoverOpen.png</PositionOneImage>
+                    <PositionTwoImage>{F-15E}/Images/AMAD/AMADFire_CoverClosed.png</PositionTwoImage>
+                  </GuardUp>
+                  <GuardDown>
+                    <PositionOneImage>{F-15E}/Images/AMAD/AMADFire_CoverOpen.png</PositionOneImage>
+                    <PositionTwoImage>{F-15E}/Images/AMAD/AMADFire_CoverClosed.png</PositionTwoImage>
+                  </GuardDown>
+                  <DefaultPosition>Two</DefaultPosition>
+                  <DefaultGuardPosition>Down</DefaultGuardPosition>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.GuardedSwitch" Name="Guard Left" SnapTarget="True" Locked="False">
+                  <Location>10,207</Location>
+                  <Size>64,78</Size>
+                  <Hidden>False</Hidden>
+                  <SwitchType>OnOn</SwitchType>
+                  <Orientation>Vertical</Orientation>
+                  <ClickType>Swipe</ClickType>
+                  <GuardUp>
+                    <PositionOneImage>{F-15E}/Images/AMAD/AMADFire_CoverOpen.png</PositionOneImage>
+                    <PositionTwoImage>{F-15E}/Images/AMAD/AMADFire_CoverClosed.png</PositionTwoImage>
+                  </GuardUp>
+                  <GuardDown>
+                    <PositionOneImage>{F-15E}/Images/AMAD/AMADFire_CoverOpen.png</PositionOneImage>
+                    <PositionTwoImage>{F-15E}/Images/AMAD/AMADFire_CoverClosed.png</PositionTwoImage>
+                  </GuardDown>
+                  <DefaultPosition>Two</DefaultPosition>
+                  <DefaultGuardPosition>Down</DefaultGuardPosition>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.GuardedSwitch" Name="Guard Right" SnapTarget="True" Locked="False">
+                  <Location>100,207</Location>
+                  <Size>64,78</Size>
+                  <Hidden>False</Hidden>
+                  <SwitchType>OnOn</SwitchType>
+                  <Orientation>Vertical</Orientation>
+                  <ClickType>Swipe</ClickType>
+                  <GuardUp>
+                    <PositionOneImage>{F-15E}/Images/AMAD/AMADFire_CoverOpen.png</PositionOneImage>
+                    <PositionTwoImage>{F-15E}/Images/AMAD/AMADFire_CoverClosed.png</PositionTwoImage>
+                  </GuardUp>
+                  <GuardDown>
+                    <PositionOneImage>{F-15E}/Images/AMAD/AMADFire_CoverOpen.png</PositionOneImage>
+                    <PositionTwoImage>{F-15E}/Images/AMAD/AMADFire_CoverClosed.png</PositionTwoImage>
+                  </GuardDown>
+                  <DefaultPosition>Two</DefaultPosition>
+                  <DefaultGuardPosition>Down</DefaultGuardPosition>
+                  <Children />
+                </Control>
+              </Children>
+            </Control>
+            <Control TypeIdentifier="Helios.Panel" Name="Emerg Jett Panel" SnapTarget="True" Locked="False">
+              <Location>571,893</Location>
+              <Size>182,172</Size>
+              <Hidden>False</Hidden>
+              <Background />
+              <Interaction>
+                <AllowInteractionFull>False</AllowInteractionFull>
+                <AllowInteractionNone>True</AllowInteractionNone>
+                <AllowInteractionLegacy>False</AllowInteractionLegacy>
+              </Interaction>
+              <Children>
+                <Control TypeIdentifier="Helios.Base.Image" Name="Jett All" SnapTarget="False" Locked="False">
+                  <Image>MK37\F-15E\Bezels_And_Faces\EMERG_Jett_Panel.png</Image>
+                  <Alignment>Stretched</Alignment>
+                  <CornerRadius>0</CornerRadius>
+                  <Location>1,1</Location>
+                  <Size>180,170</Size>
+                  <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="shadow" SnapTarget="False" Locked="False">
+                  <Image>MK37\Round_Shadow.png</Image>
+                  <Alignment>Stretched</Alignment>
+                  <CornerRadius>0</CornerRadius>
+                  <DefaultOpacity>1</DefaultOpacity>
+                  <Interaction>
+                    <AllowInteraction>False</AllowInteraction>
+                  </Interaction>
+                  <Location>79,8</Location>
+                  <Size>95,95</Size>
+                  <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.PushButton" Name="JETT Button" SnapTarget="True" Locked="False">
+                  <Location>81,10</Location>
+                  <Size>91,91</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>{F-15E}/Images/JettisonAllPanel/Jett_All_Norm.png</Image>
+                  <PushedImage>{F-15E}/Images/JettisonAllPanel/JETT_All_Pressed.png</PushedImage>
+                  <Children />
+                </Control>
+              </Children>
+            </Control>
+            <Control TypeIdentifier="Helios.F15E.UFC.PILOT" Name="UFC Panel (Pilot)" SnapTarget="True" Locked="False">
+              <Location>688,2</Location>
+              <Size>532,675</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+          </Children>
+        </Control>
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Push - Red" SnapTarget="True" Locked="True">
+          <Location>1160,858</Location>
+          <Size>50,50</Size>
+          <Hidden>False</Hidden>
+          <Type>Momentary</Type>
+          <Image>{Helios}/Images/Buttons/red-push.png</Image>
+          <PushedImage>{Helios}/Images/Buttons/red-push-in.png</PushedImage>
+          <Children />
+        </Control>
+        <Control TypeIdentifier="Helios.Panel" Name="WSO Controls" SnapTarget="True" Locked="True">
+          <Location>0,0</Location>
+          <Size>1920,1080</Size>
+          <Hidden>True</Hidden>
+          <Background />
+          <Interaction>
+            <AllowInteractionFull>True</AllowInteractionFull>
+            <AllowInteractionNone>False</AllowInteractionNone>
+            <AllowInteractionLegacy>False</AllowInteractionLegacy>
+          </Interaction>
+          <Children>
+            <Control TypeIdentifier="Helios.F15E.CAUTIONS.WSO" Name="Caution and Warning Panel (WSO)" SnapTarget="True" Locked="True">
+              <Location>383,0</Location>
+              <Size>1169,66</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.F15E.MPD.WsoLeft" Name="Left MPD (WSO)" SnapTarget="True" Locked="True">
+              <Location>442,68</Location>
+              <Size>513,513</Size>
+              <Hidden>False</Hidden>
+              <EmbeddedViewportName>F_15E_LEFT_MPD_WSO</EmbeddedViewportName>
+              <GlassReflectionOpacity>0.0490589711417815</GlassReflectionOpacity>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.F15E.MPD.ColorWsoRight" Name="Right MPCD (WSO) 1" SnapTarget="True" Locked="True">
+              <Location>1480,96</Location>
+              <Size>430,430</Size>
+              <Hidden>False</Hidden>
+              <EmbeddedViewportName>F_15E_RIGHT_MPCD_WSO</EmbeddedViewportName>
+              <GlassReflectionOpacity>0.048257890165042</GlassReflectionOpacity>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.F15E.MPD.WsoRight" Name="Right MPD (WSO)" SnapTarget="True" Locked="True">
+              <Location>958,66</Location>
+              <Size>514,514</Size>
+              <Hidden>False</Hidden>
+              <EmbeddedViewportName>F_15E_RIGHT_MPD_WSO</EmbeddedViewportName>
+              <GlassReflectionOpacity>0.0635363381912942</GlassReflectionOpacity>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.F15E.Clock.WSO" Name="Clock (WSO)" SnapTarget="True" Locked="True">
+              <Location>1292,580</Location>
+              <Size>160,160</Size>
+              <Hidden>False</Hidden>
+              <GlassReflectionOpacity>0.3</GlassReflectionOpacity>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.F15E.Instruments.VVI.WSO" Name="VVI Gauge (WSO)" SnapTarget="True" Locked="True">
+              <Location>787,741</Location>
+              <Size>160,160</Size>
+              <Hidden>False</Hidden>
+              <GlassReflectionOpacity>0.3</GlassReflectionOpacity>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.F15E.Instruments.CabinPressure.WSO" Name="Cabin Pressure Gauge (WSO)" SnapTarget="True" Locked="True">
+              <Location>418,581</Location>
+              <Size>160,160</Size>
+              <Hidden>False</Hidden>
+              <GlassReflectionOpacity>0.3</GlassReflectionOpacity>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.F15E.Instruments.IAS.WSO" Name="IAS Gauge (WSO)" SnapTarget="True" Locked="True">
+              <Location>594,581</Location>
+              <Size>160,160</Size>
+              <Hidden>False</Hidden>
+              <GlassReflectionOpacity>0.3</GlassReflectionOpacity>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.F15E.Instruments.OxygenPressure.WSO" Name="Oxygen Pressure Gauge (WSO)" SnapTarget="True" Locked="True">
+              <Location>10,916</Location>
+              <Size>160,160</Size>
+              <Hidden>False</Hidden>
+              <GlassReflectionOpacity>0.3</GlassReflectionOpacity>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.F15E.Instruments.BAltimeter.WSO" Name="Barometric Alimeter Gauge (WSO)" SnapTarget="True" Locked="True">
+              <Location>947,581</Location>
+              <Size>160,160</Size>
+              <Hidden>False</Hidden>
+              <GlassReflectionOpacity>0.3</GlassReflectionOpacity>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.F15E.Instruments.ADI.WSO" Name="ADI Gauge (WSO)" SnapTarget="True" Locked="True">
+              <Location>778,580</Location>
+              <Size>160,160</Size>
+              <Hidden>False</Hidden>
+              <GlassReflectionOpacity>0.3</GlassReflectionOpacity>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.F15E.FuelPanel.WSO" Name="Fuel Gauge (WSO)" SnapTarget="True" Locked="True">
+              <Location>1118,580</Location>
+              <Size>160,160</Size>
+              <Hidden>False</Hidden>
+              <GlassReflectionOpacity>0.3</GlassReflectionOpacity>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.F15E.MPD.ColorWsoLeft" Name="Left MPCD (WSO)" SnapTarget="True" Locked="True">
+              <Location>10,100</Location>
+              <Size>430,430</Size>
+              <Hidden>False</Hidden>
+              <EmbeddedViewportName>F_15E_LEFT_MPCD_WSO</EmbeddedViewportName>
+              <GlassReflectionOpacity>0.0394073931087733</GlassReflectionOpacity>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.F15E.UFC.WSO" Name="UFC Panel (WSO)" SnapTarget="True" Locked="True">
+              <Location>1422,565</Location>
+              <Size>498,628</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+          </Children>
+        </Control>
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Tactile Round - Light" SnapTarget="True" Locked="True">
+          <Location>1160,908</Location>
+          <Size>50,50</Size>
+          <Hidden>True</Hidden>
+          <Type>Momentary</Type>
+          <Image>{Helios}/Images/Buttons/tactile-light-round.png</Image>
+          <PushedImage>{Helios}/Images/Buttons/tactile-light-round-in.png</PushedImage>
+          <Children />
+        </Control>
+      </Children>
+    </Monitor>
+  </Monitors>
+  <Interfaces>
+    <Interface TypeIdentifier="Helios.Base.ProfileInterface" Name="Profile" />
+    <Interface TypeIdentifier="Helios.Base.Keyboard" Name="Keyboard">
+      <KeyDelay>30</KeyDelay>
+    </Interface>
+    <Interface TypeIdentifier="Patching.DCS.MonitorSetup" Name="DCS Monitor Setup" />
+    <Interface TypeIdentifier="Patching.DCS.AdditionalViewports" Name="DCS Additional Viewports" />
+    <Interface TypeIdentifier="Helios.F15ESE" Name="DCS F-15E Strike Eagle" />
+  </Interfaces>
+  <Bindings>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="AMAD Panel.Left Burn Thru Indicator.changed" />
+      <Action Target="Visual;Monitor 1.Pilot Controls.Fire Panel.Burn thru ind;Helios.Base.Indicator;Burn thru ind" Name="set.indicator" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="AMAD Panel.Right Burn Thru Indicator.changed" />
+      <Action Target="Visual;Monitor 1.Pilot Controls.Fire Panel.Burn thru ind R;Helios.Base.Indicator;Burn thru ind R" Name="set.indicator" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="AMAD Panel.Fire Extinguisher Switch.changed" />
+      <Action Target="Visual;Monitor 1.Pilot Controls.Fire Panel.Fire Switch;Helios.Base.ThreeWayToggleSwitch;Fire Switch" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="AMAD Panel.AMAD Fire Switch.changed" />
+      <Action Target="Visual;Monitor 1.Pilot Controls.Fire Panel.AMAD Button;Helios.Base.IndicatorPushButton;AMAD Button" Name="set.physical state" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="AMAD Panel.Left Engine Fire Switch.changed" />
+      <Action Target="Visual;Monitor 1.Pilot Controls.Fire Panel.ENG R Button;Helios.Base.IndicatorPushButton;ENG R Button" Name="set.physical state" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="AMAD Panel.Right Engine Fire Switch.changed" />
+      <Action Target="Visual;Monitor 1.Pilot Controls.Fire Panel.ENG L Button;Helios.Base.IndicatorPushButton;ENG L Button" Name="set.physical state" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="AMAD Panel.Right Engine Fire Switch Cover.changed" />
+      <Action Target="Visual;Monitor 1.Pilot Controls.Fire Panel.Guard Right;Helios.Base.GuardedSwitch;Guard Right" Name="set.guard position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="AMAD Panel.Left Engine Fire Switch Cover.changed" />
+      <Action Target="Visual;Monitor 1.Pilot Controls.Fire Panel.Guard Left;Helios.Base.GuardedSwitch;Guard Left" Name="set.guard position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="AMAD Panel.AMAD Fire Switch Cover.changed" />
+      <Action Target="Visual;Monitor 1.Pilot Controls.Fire Panel.Guard AMAD;Helios.Base.GuardedSwitch;Guard AMAD" Name="set.guard position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Threat Indicators (Pilot).EMS Limit Indicator.changed" />
+      <Action Target="Visual;Monitor 1.Pilot Controls.EMIS.EMIS Limit Ind;Helios.Base.Indicator;EMIS Limit Ind" Name="set.indicator" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Controls.Fire Panel.Fire Switch;Helios.Base.ThreeWayToggleSwitch;Fire Switch" Name="position.changed" />
+      <Action Target="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="AMAD Panel.set.Fire Extinguisher Switch" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Controls.Fire Panel.AMAD Button;Helios.Base.IndicatorPushButton;AMAD Button" Name="pushed" />
+      <Action Target="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="AMAD Panel.push.AMAD Fire Switch" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Controls.Fire Panel.AMAD Button;Helios.Base.IndicatorPushButton;AMAD Button" Name="released" />
+      <Action Target="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="AMAD Panel.release.AMAD Fire Switch" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Controls.Fire Panel.ENG R Button;Helios.Base.IndicatorPushButton;ENG R Button" Name="pushed" />
+      <Action Target="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="AMAD Panel.push.Left Engine Fire Switch" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Controls.Fire Panel.ENG R Button;Helios.Base.IndicatorPushButton;ENG R Button" Name="released" />
+      <Action Target="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="AMAD Panel.release.Left Engine Fire Switch" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Controls.Fire Panel.ENG L Button;Helios.Base.IndicatorPushButton;ENG L Button" Name="pushed" />
+      <Action Target="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="AMAD Panel.push.Right Engine Fire Switch" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Controls.Fire Panel.ENG L Button;Helios.Base.IndicatorPushButton;ENG L Button" Name="released" />
+      <Action Target="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="AMAD Panel.release.Right Engine Fire Switch" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Controls.Fire Panel.Guard AMAD;Helios.Base.GuardedSwitch;Guard AMAD" Name="guard position.changed" />
+      <Action Target="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="AMAD Panel.set.AMAD Fire Switch Cover" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Controls.Fire Panel.Guard Left;Helios.Base.GuardedSwitch;Guard Left" Name="guard position.changed" />
+      <Action Target="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="AMAD Panel.set.Left Engine Fire Switch Cover" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Controls.Fire Panel.Guard Right;Helios.Base.GuardedSwitch;Guard Right" Name="guard position.changed" />
+      <Action Target="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="AMAD Panel.set.Right Engine Fire Switch Cover" />
+      <TriggerValue />
+    </Binding>
+  </Bindings>
+</HeliosProfile>

@@ -1,0 +1,41 @@
+{
+	"Authors": [
+			"_Author"
+		],
+	"License":	"GPL V3",
+	"Aicraft":	"_Vehicle",
+	"Version":	"_ProfileVersionNumber",
+	"Description":	"_Author's Profile for Razbam's F-15E Strike Eagle in DCS World",
+	"Requirements":	"None",
+	"Repository":	"_Repository",
+	"VersionsRequired": [
+		{
+			"Product":	"Helios",
+			"Minimum":	"_MinimumReleaseLevel",
+			"Maximum":	null
+		}
+	],
+    "Choices": [
+        {
+			"Message": "Select the required options",
+            "Options": [
+                {
+					"Version":	"_ProfileVersionNumber",
+					"AspectRatio": "16:9",
+					"NativeResolution": "1920x1080",
+                    "Description": "Aicraft:\t\t_Author F-15E Strike Eagle _ProfileVersionNumber\nRequirements:\tHelios _MinimumReleaseLevel or above\nDownload:\t_Repository\nAspect Ratio:\t16:9\nDefault Size:\t1920x1080\nRelease Date:\t_ReleaseDate",
+                    "Excludes": [
+                    ],
+					"VersionsRequired": [
+											{
+												"Product":	"Helios",
+												"Minimum":	"_MinimumReleaseLevel",
+												"Maximum":	null
+											}
+										],
+					"Repository":	"_Repository"
+                }
+            ]
+        }
+    ]
+}
