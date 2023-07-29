@@ -8,9 +8,9 @@ name: CreateHelios16
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ main, master ]
+    branches: [ main ]
   pull_request:
-    branches: [ main, master ]
+    branches: [ main ]
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -85,3 +85,27 @@ jobs:
           name: ${{ env.AUTHOR }} ${{ env.VEHICLECOMMONNAME }} V${{ steps.bump_tag.outputs.tag }} helios16 profile package
           path: output/${{ env.AUTHOR }}_${{ env.VEHICLE }}_V${{ steps.bump_tag.outputs.tag }}.helios16
           retention-days: 2
+      - name: Read About file
+        id: getAbout
+        run: echo "::set-output name=about::$(cat './${{ env.VEHICLECOMMONNAME }} - About this profile.md')"
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: ${{ env.AUTHOR }} ${{ env.VEHICLECOMMONNAME }} V${{ steps.bump_tag.outputs.tag }}
+          body: ${{ steps.getAbout.outputs.about }}
+          draft: true
+          prerelease: false
+      - name: Upload Release Asset
+        id: upload-release-asset 
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps 
+          asset_path: output/${{ env.AUTHOR }}_${{ env.VEHICLE }}_V${{ steps.bump_tag.outputs.tag }}.helios16
+          asset_name: ${{ env.AUTHOR }} ${{ env.VEHICLECOMMONNAME }} V${{ steps.bump_tag.outputs.tag }} helios16 profile package
+          asset_content_type: application/zip
