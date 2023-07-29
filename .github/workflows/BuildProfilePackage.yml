@@ -96,7 +96,8 @@ jobs:
         with:
           tag_name: ${{ github.ref }}
           release_name: ${{ env.AUTHOR }} ${{ env.VEHICLECOMMONNAME }} V${{ steps.bump_tag.outputs.tag }}
-          body: ${{ steps.getAbout.outputs.about }}
+          body: |
+            ${{ steps.getAbout.outputs.about }}
           draft: true
           prerelease: false
       - name: Upload Release Asset
