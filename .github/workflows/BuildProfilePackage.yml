@@ -87,7 +87,11 @@ jobs:
           retention-days: 2
       - name: Read About file
         id: getAbout
-        run: echo "::set-output name=about::$(cat './${{ env.VEHICLECOMMONNAME }} - About this profile.md')"
+        run: |
+          ABOUT= $(cat './${{ env.VEHICLECOMMONNAME }} - About this profile.md')
+          echo "ABOUT<<EOF" >> $GITHUB_ENV
+          echo "$ABOUT" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -96,7 +100,7 @@ jobs:
         with:
           tag_name: ${{ github.ref }}
           release_name: ${{ env.AUTHOR }} ${{ env.VEHICLECOMMONNAME }} V${{ steps.bump_tag.outputs.tag }}
-          body: ${{ steps.getAbout.outputs.about }}
+          body: ${{ env.ABOUT }}
           draft: true
           prerelease: false
       - name: Upload Release Asset
