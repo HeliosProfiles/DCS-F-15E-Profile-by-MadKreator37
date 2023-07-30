@@ -88,9 +88,8 @@ jobs:
       - name: Read About file
         id: getAbout
         run: |
-          ABOUT= $(cat './${{ env.VEHICLECOMMONNAME }} - About this profile.md')
           echo "ABOUT<<EOF" >> $GITHUB_ENV
-          echo "$ABOUT" >> $GITHUB_ENV
+          echo "$(cat './${{ env.VEHICLECOMMONNAME }} - About this profile.md')" >> $GITHUB_ENV
           echo "EOF" >> $GITHUB_ENV
       - name: Create Release
         id: create_release
