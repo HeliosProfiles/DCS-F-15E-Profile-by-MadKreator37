@@ -5701,8 +5701,8 @@
                   <Hidden>False</Hidden>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.Indicator" Name="a Ind" SnapTarget="True" Locked="False">
-                  <OnImage>MadKreator37/F-15E/Lamps_And_Indicators/UFC_a_Ind_Lit.png</OnImage>
+                <Control TypeIdentifier="Helios.Base.Indicator" Name="AA Ind" SnapTarget="True" Locked="False">
+                  <OnImage>MadKreator37/F-15E/Lamps_And_Indicators/UFC_AA_Ind_Lit.png</OnImage>
                   <OffImage>MadKreator37/F-15E/Transparent_Image.png</OffImage>
                   <Font>
                     <FontFamily>Franklin Gothic</FontFamily>
@@ -8893,13 +8893,13 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="HUD Control Panel.a Master Mode Indicator.changed" />
-      <Action Target="Visual;Monitor 1.Pilot Controls.UFC Panel (Pilot) 1.UFC Panel (Pilot)_a Master Mode Selector;Helios.Base.IndicatorPushButton;UFC Panel (Pilot)_a Master Mode Selector" Name="UFC Panel (Pilot)_UFC Panel (Pilot)_a Master Mode Selector.set.indicator" />
+      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="HUD Control Panel.AA Master Mode Indicator.changed" />
+      <Action Target="Visual;Monitor 1.Pilot Controls.UFC Panel (Pilot) 1.UFC Panel (Pilot)_AA Master Mode Selector;Helios.Base.IndicatorPushButton;UFC Panel (Pilot)_AA Master Mode Selector" Name="UFC Panel (Pilot)_UFC Panel (Pilot)_AA Master Mode Selector.set.indicator" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="HUD Control Panel.a Master Mode Selector.changed" />
-      <Action Target="Visual;Monitor 1.Pilot Controls.UFC Panel (Pilot) 1.UFC Panel (Pilot)_a Master Mode Selector;Helios.Base.IndicatorPushButton;UFC Panel (Pilot)_a Master Mode Selector" Name="UFC Panel (Pilot)_UFC Panel (Pilot)_a Master Mode Selector.set.physical state" />
+      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="HUD Control Panel.AA Master Mode Selector.changed" />
+      <Action Target="Visual;Monitor 1.Pilot Controls.UFC Panel (Pilot) 1.UFC Panel (Pilot)_AA Master Mode Selector;Helios.Base.IndicatorPushButton;UFC Panel (Pilot)_AA Master Mode Selector" Name="UFC Panel (Pilot)_UFC Panel (Pilot)_AA Master Mode Selector.set.physical state" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -9868,7 +9868,7 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Master Mode Indicators (WSO).A/A Master Mode Indicator.changed" />
+      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Master Mode Indicators (WSO).A/AA Master Mode Indicator.changed" />
       <Action Target="Visual;Monitor 1.WSO Controls.MM Indicator Panel.a Ind;Helios.Base.Indicator;a Ind" Name="set.indicator" />
       <TriggerValue />
     </Binding>
@@ -12438,13 +12438,13 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Pilot Controls.UFC Panel (Pilot) 1.UFC Panel (Pilot)_a Master Mode Selector;Helios.Base.IndicatorPushButton;UFC Panel (Pilot)_a Master Mode Selector" Name="UFC Panel (Pilot)_UFC Panel (Pilot)_a Master Mode Selector.pushed" />
-      <Action Target="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="HUD Control Panel.push.a Master Mode Selector" />
+      <Trigger Source="Visual;Monitor 1.Pilot Controls.UFC Panel (Pilot) 1.UFC Panel (Pilot)_AA Master Mode Selector;Helios.Base.IndicatorPushButton;UFC Panel (Pilot)_AA Master Mode Selector" Name="UFC Panel (Pilot)_UFC Panel (Pilot)_AA Master Mode Selector.pushed" />
+      <Action Target="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="HUD Control Panel.push.AA Master Mode Selector" />
       <StaticValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Pilot Controls.UFC Panel (Pilot) 1.UFC Panel (Pilot)_a Master Mode Selector;Helios.Base.IndicatorPushButton;UFC Panel (Pilot)_a Master Mode Selector" Name="UFC Panel (Pilot)_UFC Panel (Pilot)_a Master Mode Selector.released" />
-      <Action Target="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="HUD Control Panel.release.a Master Mode Selector" />
+      <Trigger Source="Visual;Monitor 1.Pilot Controls.UFC Panel (Pilot) 1.UFC Panel (Pilot)_AA Master Mode Selector;Helios.Base.IndicatorPushButton;UFC Panel (Pilot)_AA Master Mode Selector" Name="UFC Panel (Pilot)_UFC Panel (Pilot)_AA Master Mode Selector.released" />
+      <Action Target="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="HUD Control Panel.release.AA Master Mode Selector" />
       <StaticValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
