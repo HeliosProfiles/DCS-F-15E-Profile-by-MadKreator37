@@ -55,11 +55,27 @@ jobs:
           echo ${{ env.VEHICLE }} - ${{ env.VEHICLECOMMONNAME }}
           echo "Commit SHA (short) - " ${{ steps.vars.outputs.sha_short }}
           echo "New Release - V " ${{ steps.bump_tag.outputs.tag }}
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install diff-match-patch
+          python -m pip install defusedxml
+      - name: execute python script(s) to adjust the profile
+        run: |
+          echo "Insert the additional bindings for the UFC messages"
+          python .github/workflows/AdjustLocalProfile.py '${{ env.VEHICLE }}/Helios/Profiles/${{ env.AUTHOR }}_F-15E.hpf' '.github/workflows/UFCBindings.xml' '${{ env.VEHICLE }}/Helios/Profiles/${{ env.AUTHOR }}_F-15E.hpf.new'
+          rm '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.AUTHOR }}'_F-15E.hpf'
+          mv '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.AUTHOR }}'_F-15E.hpf.new' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.AUTHOR }}'_F-15E.hpf'
       - run: |
           mkdir -p output
           smallTag=$(echo ${{ steps.bump_tag.outputs.tag }} | cut -c1-5)
           echo 'Small Tag= '$smallTag
           sed -i -- 's#_ProfileVersionNumber#'"V ${{ steps.bump_tag.outputs.tag }}"'#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.AUTHOR }}'_F-15E.hpf'
+          sed -i -- 's#_BuildDate#'"$(date "+%d %B %Y")"'#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.AUTHOR }}'_F-15E.hpf'
           sed -i -- 's#_Vehicle#'"${{ env.VEHICLE }}"'#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.AUTHOR }}'_F-15E.hpf'
           sed -i -- 's#_CurrentDate#'"${{ steps.vars.outputs.date }}"'#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.AUTHOR }}'_F-15E.hpf'
           sed -i -- 's#_Repository#'"${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/releases"'#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.AUTHOR }}'_F-15E.hpf'
