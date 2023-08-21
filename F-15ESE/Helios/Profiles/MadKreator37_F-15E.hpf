@@ -9867,6 +9867,11 @@
       <Action Target="Visual;Monitor 1.WSO Controls.WSO Consoles.Console UFC.UFC Panel (WSO).Menu Key;Helios.Base.PushButton;Menu Key" Name="UFC Panel (WSO)_Menu Key.set.physical state" />
       <TriggerValue />
     </Binding>
+	<Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Master Mode Indicators (WSO).A/A Master Mode Indicator.changed" />
+      <Action Target="Visual;Monitor 1.WSO Controls.MM Indicator Panel.AA Ind;Helios.Base.Indicator;AA Ind" Name="set.indicator" />
+      <TriggerValue />
+    </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Master Mode Indicators (WSO).A/G Master Mode Indicator.changed" />
       <Action Target="Visual;Monitor 1.WSO Controls.MM Indicator Panel.AG Ind ;Helios.Base.Indicator;AG Ind " Name="set.indicator" />
