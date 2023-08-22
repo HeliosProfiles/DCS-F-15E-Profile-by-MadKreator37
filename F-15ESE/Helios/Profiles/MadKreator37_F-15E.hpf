@@ -10429,17 +10429,17 @@
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Landing Gear Panel.Nose Gear Down Indicator.changed" />
       <Action Target="Visual;Monitor 1.Pilot Controls.Takeoff and Landing Panel.Nose;Helios.Base.Indicator;Nose" Name="set.indicator" />
-      <TriggerValue />
+      <LuaScript>return (tonumber(TriggerValue) &gt; 0.9)</LuaScript>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Landing Gear Panel.Right Gear Down Indicator.changed" />
       <Action Target="Visual;Monitor 1.Pilot Controls.Takeoff and Landing Panel.Right;Helios.Base.Indicator;Right" Name="set.indicator" />
-      <TriggerValue />
+      <LuaScript>return (tonumber(TriggerValue) &gt; 0.9)</LuaScript>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Landing Gear Panel.Left Gear Down Indicator.changed" />
       <Action Target="Visual;Monitor 1.Pilot Controls.Takeoff and Landing Panel.Left;Helios.Base.Indicator;Left" Name="set.indicator" />
-      <TriggerValue />
+      <LuaScript>return (tonumber(TriggerValue) &gt; 0.9)</LuaScript>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Emergency Jettison and Misc Handles (WSO).Arresting Hook Handle.changed" />
