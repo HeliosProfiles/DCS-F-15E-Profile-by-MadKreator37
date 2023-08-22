@@ -196,90 +196,6 @@
                 </Control>
               </Children>
             </Control>
-            <Control TypeIdentifier="Helios.Panel" Name="Clock Panel" SnapTarget="True" Locked="True">
-              <Location>1214,693</Location>
-              <Size>191,191</Size>
-              <Hidden>False</Hidden>
-              <Background />
-              <Interaction>
-                <AllowInteractionFull>False</AllowInteractionFull>
-                <AllowInteractionNone>True</AllowInteractionNone>
-                <AllowInteractionLegacy>False</AllowInteractionLegacy>
-              </Interaction>
-              <Children>
-                <Control TypeIdentifier="Helios.F15E.Clock.Pilot" Name="Clock (Pilot)" SnapTarget="True" Locked="True">
-                  <Location>25,27</Location>
-                  <Size>140,140</Size>
-                  <Hidden>False</Hidden>
-                  <Children />
-                </Control>
-                <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 1" SnapTarget="False" Locked="True">
-                  <Image>MadKreator37/F-15E/Sphere.png</Image>
-                  <Alignment>Stretched</Alignment>
-                  <CornerRadius>0</CornerRadius>
-                  <DefaultOpacity>0.122363710130898</DefaultOpacity>
-                  <Interaction>
-                    <AllowInteraction>False</AllowInteraction>
-                  </Interaction>
-                  <Location>16,10</Location>
-                  <Size>158,160</Size>
-                  <Rotation>CCW</Rotation>
-                  <Hidden>False</Hidden>
-                  <Children />
-                </Control>
-                <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image" SnapTarget="False" Locked="True">
-                  <Image>MadKreator37/F-15E/pilotref2.png</Image>
-                  <Alignment>Stretched</Alignment>
-                  <CornerRadius>0</CornerRadius>
-                  <DefaultOpacity>0.0665202753201272</DefaultOpacity>
-                  <Interaction>
-                    <AllowInteraction>False</AllowInteraction>
-                  </Interaction>
-                  <Location>7,7</Location>
-                  <Size>176,178</Size>
-                  <Rotation>ROT180</Rotation>
-                  <Hidden>False</Hidden>
-                  <Children />
-                </Control>
-                <Control TypeIdentifier="Helios.Base.Image" Name="bezel" SnapTarget="False" Locked="True">
-                  <Image>MadKreator37/F-15E/Bezels_And_Faces/Clock_Bezel.png</Image>
-                  <Alignment>Stretched</Alignment>
-                  <CornerRadius>0</CornerRadius>
-                  <Location>0,1</Location>
-                  <Size>190,190</Size>
-                  <Hidden>False</Hidden>
-                  <Children />
-                </Control>
-                <Control TypeIdentifier="Helios.Base.PotentiometerEndless" Name="clock adj knob" SnapTarget="True" Locked="True">
-                  <Location>7,156</Location>
-                  <Size>30,30</Size>
-                  <Hidden>False</Hidden>
-                  <KnobImage>MadKreator37/F-15E/Buttons_And_Switches/Clock_Knob_Lower.png</KnobImage>
-                  <InitialValue>0</InitialValue>
-                  <StepValue>0.1</StepValue>
-                  <MaxValue>1</MaxValue>
-                  <MinValue>0</MinValue>
-                  <InitialRotation>0</InitialRotation>
-                  <RotationTravel>360</RotationTravel>
-                  <Continuous>True</Continuous>
-                  <Children />
-                </Control>
-                <Control TypeIdentifier="Helios.Base.PotentiometerEndless" Name="timer stop knob" SnapTarget="True" Locked="True">
-                  <Location>153,7</Location>
-                  <Size>30,30</Size>
-                  <Hidden>False</Hidden>
-                  <KnobImage>MadKreator37/F-15E/Buttons_And_Switches/Clock_Knob_Upper.png</KnobImage>
-                  <InitialValue>0</InitialValue>
-                  <StepValue>0.1</StepValue>
-                  <MaxValue>1</MaxValue>
-                  <MinValue>0</MinValue>
-                  <InitialRotation>0</InitialRotation>
-                  <RotationTravel>360</RotationTravel>
-                  <Continuous>True</Continuous>
-                  <Children />
-                </Control>
-              </Children>
-            </Control>
             <Control TypeIdentifier="Helios.Panel" Name="Engine Monitor Panel" SnapTarget="True" Locked="True">
               <Location>1407,798</Location>
               <Size>303,282</Size>
@@ -678,6 +594,90 @@
               <Hidden>False</Hidden>
               <Children />
             </Control>
+            <Control TypeIdentifier="Helios.Panel" Name="Clock Panel" SnapTarget="True" Locked="True">
+              <Location>1214,693</Location>
+              <Size>191,191</Size>
+              <Hidden>False</Hidden>
+              <Background />
+              <Interaction>
+                <AllowInteractionFull>False</AllowInteractionFull>
+                <AllowInteractionNone>True</AllowInteractionNone>
+                <AllowInteractionLegacy>False</AllowInteractionLegacy>
+              </Interaction>
+              <Children>
+                <Control TypeIdentifier="Helios.F15E.Clock.Pilot" Name="Clock (Pilot)" SnapTarget="True" Locked="True">
+                  <Location>25,27</Location>
+                  <Size>140,140</Size>
+                  <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 1" SnapTarget="False" Locked="True">
+                  <Image>MadKreator37/F-15E/Sphere.png</Image>
+                  <Alignment>Stretched</Alignment>
+                  <CornerRadius>0</CornerRadius>
+                  <DefaultOpacity>0.122363710130898</DefaultOpacity>
+                  <Interaction>
+                    <AllowInteraction>False</AllowInteraction>
+                  </Interaction>
+                  <Location>16,10</Location>
+                  <Size>158,160</Size>
+                  <Rotation>CCW</Rotation>
+                  <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image" SnapTarget="False" Locked="True">
+                  <Image>MadKreator37/F-15E/pilotref2.png</Image>
+                  <Alignment>Stretched</Alignment>
+                  <CornerRadius>0</CornerRadius>
+                  <DefaultOpacity>0.0665202753201272</DefaultOpacity>
+                  <Interaction>
+                    <AllowInteraction>False</AllowInteraction>
+                  </Interaction>
+                  <Location>7,7</Location>
+                  <Size>176,178</Size>
+                  <Rotation>ROT180</Rotation>
+                  <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.Image" Name="bezel" SnapTarget="False" Locked="True">
+                  <Image>MadKreator37/F-15E/Bezels_And_Faces/Clock_Bezel.png</Image>
+                  <Alignment>Stretched</Alignment>
+                  <CornerRadius>0</CornerRadius>
+                  <Location>0,1</Location>
+                  <Size>190,190</Size>
+                  <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.PotentiometerEndless" Name="clock adj knob" SnapTarget="True" Locked="True">
+                  <Location>7,156</Location>
+                  <Size>30,30</Size>
+                  <Hidden>False</Hidden>
+                  <KnobImage>MadKreator37/F-15E/Buttons_And_Switches/Clock_Knob_Lower.png</KnobImage>
+                  <InitialValue>0</InitialValue>
+                  <StepValue>0.1</StepValue>
+                  <MaxValue>1</MaxValue>
+                  <MinValue>0</MinValue>
+                  <InitialRotation>0</InitialRotation>
+                  <RotationTravel>360</RotationTravel>
+                  <Continuous>True</Continuous>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.PotentiometerEndless" Name="timer stop knob" SnapTarget="True" Locked="True">
+                  <Location>153,7</Location>
+                  <Size>30,30</Size>
+                  <Hidden>False</Hidden>
+                  <KnobImage>MadKreator37/F-15E/Buttons_And_Switches/Clock_Knob_Upper.png</KnobImage>
+                  <InitialValue>0</InitialValue>
+                  <StepValue>0.1</StepValue>
+                  <MaxValue>1</MaxValue>
+                  <MinValue>0</MinValue>
+                  <InitialRotation>0</InitialRotation>
+                  <RotationTravel>360</RotationTravel>
+                  <Continuous>True</Continuous>
+                  <Children />
+                </Control>
+              </Children>
+            </Control>
             <Control TypeIdentifier="Helios.F15E.MPD.PilotRight" Name="Right MPD (Pilot)" SnapTarget="True" Locked="True">
               <Location>1218,170</Location>
               <Size>520,520</Size>
@@ -912,7 +912,7 @@
                   <OnTextColor>#FFB3A229</OnTextColor>
                   <OffTextColor>#FF1C1C1C</OffTextColor>
                   <ScalingMode>Height</ScalingMode>
-                  <Location>63,56</Location>
+                  <Location>65,58</Location>
                   <Size>36,36</Size>
                   <Hidden>False</Hidden>
                   <Children />
@@ -938,7 +938,7 @@
                   <OnTextColor>#FFB3A229</OnTextColor>
                   <OffTextColor>#FF1C1C1C</OffTextColor>
                   <ScalingMode>Height</ScalingMode>
-                  <Location>114,57</Location>
+                  <Location>114,59</Location>
                   <Size>36,36</Size>
                   <Hidden>False</Hidden>
                   <Children />
@@ -964,7 +964,7 @@
                   <OnTextColor>#FFB3A229</OnTextColor>
                   <OffTextColor>#FF1C1C1C</OffTextColor>
                   <ScalingMode>Height</ScalingMode>
-                  <Location>166,57</Location>
+                  <Location>166,59</Location>
                   <Size>36,36</Size>
                   <Hidden>False</Hidden>
                   <Children />
@@ -990,7 +990,7 @@
                   <OnTextColor>#FFB3A229</OnTextColor>
                   <OffTextColor>#FF1C1C1C</OffTextColor>
                   <ScalingMode>Height</ScalingMode>
-                  <Location>218,57</Location>
+                  <Location>218,59</Location>
                   <Size>36,36</Size>
                   <Hidden>False</Hidden>
                   <Children />
@@ -1016,7 +1016,7 @@
                   <OnTextColor>#FFB3A229</OnTextColor>
                   <OffTextColor>#FF1C1C1C</OffTextColor>
                   <ScalingMode>Height</ScalingMode>
-                  <Location>12,58</Location>
+                  <Location>13,60</Location>
                   <Size>35,13</Size>
                   <Hidden>False</Hidden>
                   <Children />
@@ -1042,7 +1042,7 @@
                   <OnTextColor>#FFB3A229</OnTextColor>
                   <OffTextColor>#FF1C1C1C</OffTextColor>
                   <ScalingMode>Height</ScalingMode>
-                  <Location>12,78</Location>
+                  <Location>13,79</Location>
                   <Size>35,13</Size>
                   <Hidden>False</Hidden>
                   <Children />
@@ -1371,7 +1371,7 @@
                   <Location>61,135</Location>
                   <Size>52,46</Size>
                   <Hidden>False</Hidden>
-                  <Type>Toggle</Type>
+                  <Type>Momentary</Type>
                   <Image>{F-15E}/Images/AMAD/AMADExtinguisher_Norm.png</Image>
                   <PushedImage>{F-15E}/Images/AMAD/AMADExtinguisher_During_Press_Off.png</PushedImage>
                   <Children />
@@ -1380,7 +1380,7 @@
                   <IndicatorOnImage>{F-15E}/Images/AMAD/AMADExtinguisher_On_Lit.png</IndicatorOnImage>
                   <PushedIndicatorOnImage>{F-15E}/Images/AMAD/AMADExtinguisher_During_Press_Lit.png</PushedIndicatorOnImage>
                   <OnTextColor>#FFB3A229</OnTextColor>
-                  <Location>17,222</Location>
+                  <Location>18,219</Location>
                   <Size>52,46</Size>
                   <Hidden>False</Hidden>
                   <Type>Momentary</Type>
@@ -1392,7 +1392,7 @@
                   <IndicatorOnImage>{F-15E}/Images/AMAD/AMADExtinguisher_On_Lit.png</IndicatorOnImage>
                   <PushedIndicatorOnImage>{F-15E}/Images/AMAD/AMADExtinguisher_During_Press_Lit.png</PushedIndicatorOnImage>
                   <OnTextColor>#FFB3A229</OnTextColor>
-                  <Location>106,222</Location>
+                  <Location>106,219</Location>
                   <Size>52,46</Size>
                   <Hidden>False</Hidden>
                   <Type>Momentary</Type>
@@ -1400,7 +1400,7 @@
                   <PushedImage>{Helios}/Images/Indicators/caution-indicator-off-pushed.png</PushedImage>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.Indicator" Name="Burn thru ind" SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.Indicator" Name="Burn thru ind L" SnapTarget="True" Locked="True">
                   <OnImage>{F-15E}/Images/AMAD/Engine_Burn_Thru_L.png</OnImage>
                   <OffImage>{Helios}/Images/TransparentImage.png</OffImage>
                   <Font>
@@ -1481,7 +1481,7 @@
                   <Children />
                 </Control>
                 <Control TypeIdentifier="Helios.Base.GuardedSwitch" Name="Guard Left" SnapTarget="True" Locked="True">
-                  <Location>12,200</Location>
+                  <Location>13,198</Location>
                   <Size>64,78</Size>
                   <Hidden>False</Hidden>
                   <SwitchType>OnOn</SwitchType>
@@ -1500,7 +1500,7 @@
                   <Children />
                 </Control>
                 <Control TypeIdentifier="Helios.Base.GuardedSwitch" Name="Guard Right" SnapTarget="True" Locked="True">
-                  <Location>101,200</Location>
+                  <Location>102,198</Location>
                   <Size>64,78</Size>
                   <Hidden>False</Hidden>
                   <SwitchType>OnOn</SwitchType>
@@ -1790,43 +1790,14 @@
                 <AllowInteractionLegacy>False</AllowInteractionLegacy>
               </Interaction>
               <Children>
-                <Control TypeIdentifier="Helios.Base.CustomTape" Name="Compass Rose" SnapTarget="True" Locked="True">
-                  <Location>0,0</Location>
-                  <Size>112,112</Size>
+                <Control TypeIdentifier="Helios.F15E.Instruments.Compass.Pilot" Name="Magnetic Compass (Pilot)" SnapTarget="True" Locked="False">
+                  <Location>21,22</Location>
+                  <Size>69,68</Size>
                   <Hidden>False</Hidden>
-                  <TapeImage>MadKreator37/F-15E/Bezels_And_Faces/Compass_Tape.png</TapeImage>
-                  <OffFlagImage />
-                  <ForegroundImage>MadKreator37/F-15E/Bezels_And_Faces/Compass_Bezel_2.png</ForegroundImage>
-                  <BackgroundImage />
-                  <Tape_PosX>0</Tape_PosX>
-                  <Tape_PosY>0</Tape_PosY>
-                  <Tape_Width>1000</Tape_Width>
-                  <Tape_Height>50</Tape_Height>
-                  <Tape_CenterX>100</Tape_CenterX>
-                  <Tape_CenterY>100</Tape_CenterY>
-                  <OffFlag_PosX>30</OffFlag_PosX>
-                  <OffFlag_PosY>30</OffFlag_PosY>
-                  <OffFlag_Width>50</OffFlag_Width>
-                  <OffFlag_Height>50</OffFlag_Height>
-                  <OffFlag_IsHidden>False</OffFlag_IsHidden>
-                  <MinHorizontal>-844</MinHorizontal>
-                  <HorizontalTravel>-24</HorizontalTravel>
-                  <MinVertical>89</MinVertical>
-                  <VerticalTravel>59</VerticalTravel>
-                  <MinRotation>-13</MinRotation>
-                  <RotationTravel>13</RotationTravel>
-                  <InitialHorizontal>-430</InitialHorizontal>
-                  <InitialVertical>75</InitialVertical>
-                  <InitialRotation>0</InitialRotation>
-                  <MinInputHorizontal>0</MinInputHorizontal>
-                  <MaxInputHorizontal>360</MaxInputHorizontal>
-                  <MinInputVertical>-90</MinInputVertical>
-                  <MaxInputVertical>90</MaxInputVertical>
-                  <MinInputRotation>-180</MinInputRotation>
-                  <MaxInputRotation>180</MaxInputRotation>
+                  <GlassReflectionOpacity>0.3</GlassReflectionOpacity>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="sphere image" SnapTarget="False" Locked="True">
+                <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="sphere image" SnapTarget="False" Locked="False">
                   <Image>MadKreator37/F-15E/Sphere.png</Image>
                   <Alignment>Stretched</Alignment>
                   <CornerRadius>0</CornerRadius>
@@ -1839,7 +1810,7 @@
                   <Hidden>False</Hidden>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="shadow" SnapTarget="False" Locked="True">
+                <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="shadow" SnapTarget="False" Locked="False">
                   <Image>MadKreator37/F-15E/Round_Shadow.png</Image>
                   <Alignment>Stretched</Alignment>
                   <CornerRadius>0</CornerRadius>
@@ -1852,7 +1823,7 @@
                   <Hidden>False</Hidden>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.Image" Name="bezel" SnapTarget="False" Locked="True">
+                <Control TypeIdentifier="Helios.Base.Image" Name="bezel" SnapTarget="False" Locked="False">
                   <Image>MadKreator37/F-15E/Bezels_And_Faces/Compass_Bezel_2.png</Image>
                   <Alignment>Stretched</Alignment>
                   <CornerRadius>0</CornerRadius>
@@ -1862,6 +1833,43 @@
                   <Children />
                 </Control>
               </Children>
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Image" Name="Control Center Base" SnapTarget="False" Locked="True">
+              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
+              <Alignment>Stretched</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <Location>33,991</Location>
+              <Size>126,44</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Control Center button" SnapTarget="True" Locked="True">
+              <Location>50,997</Location>
+              <Size>88,27</Size>
+              <Hidden>False</Hidden>
+              <Type>Toggle</Type>
+              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Norm.png</Image>
+              <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Pressed.png</PushedImage>
+              <Text>
+                <Color>#FFFFFFFF</Color>
+                <Font>
+                  <FontFamily>Franklin Gothic</FontFamily>
+                  <FontStyle>Normal</FontStyle>
+                  <FontWeight>Normal</FontWeight>
+                  <FontSize>10.5</FontSize>
+                  <HorizontalAlignment>Center</HorizontalAlignment>
+                  <VerticalAlignment>Center</VerticalAlignment>
+                  <Padding>
+                    <Left>0</Left>
+                    <Top>0</Top>
+                    <Right>0</Right>
+                    <Bottom>0</Bottom>
+                  </Padding>
+                </Font>
+                <Text>CONTROL CENTER</Text>
+                <ScalingMode>None</ScalingMode>
+              </Text>
+              <Children />
             </Control>
             <Control TypeIdentifier="Helios.Panel" Name="Left Console" SnapTarget="True" Locked="True">
               <Location>0,0</Location>
@@ -5633,7 +5641,7 @@
                   <OnTextColor>#FFB3A229</OnTextColor>
                   <OffTextColor>#FF1C1C1C</OffTextColor>
                   <ScalingMode>Height</ScalingMode>
-                  <Location>16,7</Location>
+                  <Location>16,8</Location>
                   <Size>45,17</Size>
                   <Hidden>False</Hidden>
                   <Children />
@@ -5742,7 +5750,7 @@
                     <FontFamily>Franklin Gothic</FontFamily>
                     <FontStyle>Normal</FontStyle>
                     <FontWeight>Normal</FontWeight>
-                    <FontSize>4.08</FontSize>
+                    <FontSize>3.6</FontSize>
                     <HorizontalAlignment>Center</HorizontalAlignment>
                     <VerticalAlignment>Center</VerticalAlignment>
                     <Padding>
@@ -5756,8 +5764,8 @@
                   <OnTextColor>#FFB3A229</OnTextColor>
                   <OffTextColor>#FF1C1C1C</OffTextColor>
                   <ScalingMode>Height</ScalingMode>
-                  <Location>16,33</Location>
-                  <Size>44,17</Size>
+                  <Location>16,35</Location>
+                  <Size>44,15</Size>
                   <Hidden>False</Hidden>
                   <Children />
                 </Control>
@@ -5768,7 +5776,7 @@
                     <FontFamily>Franklin Gothic</FontFamily>
                     <FontStyle>Normal</FontStyle>
                     <FontWeight>Normal</FontWeight>
-                    <FontSize>4.08</FontSize>
+                    <FontSize>3.6</FontSize>
                     <HorizontalAlignment>Center</HorizontalAlignment>
                     <VerticalAlignment>Center</VerticalAlignment>
                     <Padding>
@@ -5783,7 +5791,7 @@
                   <OffTextColor>#FF1C1C1C</OffTextColor>
                   <ScalingMode>Height</ScalingMode>
                   <Location>17,57</Location>
-                  <Size>44,17</Size>
+                  <Size>44,15</Size>
                   <Hidden>False</Hidden>
                   <Children />
                 </Control>
@@ -5794,7 +5802,7 @@
                     <FontFamily>Franklin Gothic</FontFamily>
                     <FontStyle>Normal</FontStyle>
                     <FontWeight>Normal</FontWeight>
-                    <FontSize>4.08</FontSize>
+                    <FontSize>3.6</FontSize>
                     <HorizontalAlignment>Center</HorizontalAlignment>
                     <VerticalAlignment>Center</VerticalAlignment>
                     <Padding>
@@ -5808,8 +5816,8 @@
                   <OnTextColor>#FFB3A229</OnTextColor>
                   <OffTextColor>#FF1C1C1C</OffTextColor>
                   <ScalingMode>Height</ScalingMode>
-                  <Location>17,79</Location>
-                  <Size>44,17</Size>
+                  <Location>16,80</Location>
+                  <Size>44,15</Size>
                   <Hidden>False</Hidden>
                   <Children />
                 </Control>
@@ -5820,7 +5828,7 @@
                     <FontFamily>Franklin Gothic</FontFamily>
                     <FontStyle>Normal</FontStyle>
                     <FontWeight>Normal</FontWeight>
-                    <FontSize>4.08</FontSize>
+                    <FontSize>3.6</FontSize>
                     <HorizontalAlignment>Center</HorizontalAlignment>
                     <VerticalAlignment>Center</VerticalAlignment>
                     <Padding>
@@ -5834,8 +5842,8 @@
                   <OnTextColor>#FFB3A229</OnTextColor>
                   <OffTextColor>#FF1C1C1C</OffTextColor>
                   <ScalingMode>Height</ScalingMode>
-                  <Location>17,102</Location>
-                  <Size>44,17</Size>
+                  <Location>17,103</Location>
+                  <Size>44,15</Size>
                   <Hidden>False</Hidden>
                   <Children />
                 </Control>
@@ -6075,6 +6083,43 @@
                   <Children />
                 </Control>
               </Children>
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Image" Name="Control Center Base" SnapTarget="False" Locked="True">
+              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
+              <Alignment>Stretched</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <Location>111,1019</Location>
+              <Size>126,44</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Control Center Button" SnapTarget="True" Locked="True">
+              <Location>128,1025</Location>
+              <Size>88,27</Size>
+              <Hidden>False</Hidden>
+              <Type>Toggle</Type>
+              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Norm.png</Image>
+              <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Pressed.png</PushedImage>
+              <Text>
+                <Color>#FFFFFFFF</Color>
+                <Font>
+                  <FontFamily>Franklin Gothic</FontFamily>
+                  <FontStyle>Normal</FontStyle>
+                  <FontWeight>Normal</FontWeight>
+                  <FontSize>10.5</FontSize>
+                  <HorizontalAlignment>Center</HorizontalAlignment>
+                  <VerticalAlignment>Center</VerticalAlignment>
+                  <Padding>
+                    <Left>0</Left>
+                    <Top>0</Top>
+                    <Right>0</Right>
+                    <Bottom>0</Bottom>
+                  </Padding>
+                </Font>
+                <Text>CONTROL CENTER</Text>
+                <ScalingMode>None</ScalingMode>
+              </Text>
+              <Children />
             </Control>
             <Control TypeIdentifier="Helios.Panel" Name="WSO Consoles" SnapTarget="True" Locked="True">
               <Location>0,570</Location>
@@ -7203,6 +7248,31 @@
                   <Location>244,3</Location>
                   <Size>103,491</Size>
                   <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+              </Children>
+            </Control>
+            <Control TypeIdentifier="Helios.Panel" Name="Master Caution" SnapTarget="True" Locked="True">
+              <Location>813,11</Location>
+              <Size>44,40</Size>
+              <Hidden>False</Hidden>
+              <Background />
+              <Interaction>
+                <AllowInteractionFull>True</AllowInteractionFull>
+                <AllowInteractionNone>False</AllowInteractionNone>
+                <AllowInteractionLegacy>False</AllowInteractionLegacy>
+              </Interaction>
+              <Children>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="Master caution" SnapTarget="True" Locked="True">
+                  <IndicatorOnImage>MadKreator37/F-15E/Buttons_And_Switches/Master_Cauton_Button_Norm_Lit.png</IndicatorOnImage>
+                  <PushedIndicatorOnImage>MadKreator37/F-15E/Buttons_And_Switches/Master_Cauton_Button_Pressed_Off.png</PushedIndicatorOnImage>
+                  <OnTextColor>#FFB3A229</OnTextColor>
+                  <Location>0,0</Location>
+                  <Size>43,39</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>MadKreator37/F-15E/Buttons_And_Switches/Master_Cauton_Button_Norm_Off.png</Image>
+                  <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Master_Cauton_Button_Pressed_Off.png</PushedImage>
                   <Children />
                 </Control>
               </Children>
@@ -8548,7 +8618,7 @@
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="AMAD Panel.Left Burn Thru Indicator.changed" />
-      <Action Target="Visual;Monitor 1.Pilot Controls.Fire Panel .Burn thru ind;Helios.Base.Indicator;Burn thru ind" Name="set.indicator" />
+      <Action Target="Visual;Monitor 1.Pilot Controls.Fire Panel .Burn thru ind L;Helios.Base.Indicator;Burn thru ind L" Name="set.indicator" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -10412,21 +10482,6 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Flight Instruments.Magnetic Compass Heading.changed" />
-      <Action Target="Visual;Monitor 1.Pilot Controls.Compass Panel.Compass Rose;Helios.Base.CustomTape;Compass Rose" Name="set.Tape Horizontal Offset" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Flight Instruments.Magnetic Compass Pitch.changed" />
-      <Action Target="Visual;Monitor 1.Pilot Controls.Compass Panel.Compass Rose;Helios.Base.CustomTape;Compass Rose" Name="set.Tape Vertical Offset" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Flight Instruments.Magnetic Compass Roll.changed" />
-      <Action Target="Visual;Monitor 1.Pilot Controls.Compass Panel.Compass Rose;Helios.Base.CustomTape;Compass Rose" Name="set.Tape Rotation" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Landing Gear Panel.Nose Gear Down Indicator.changed" />
       <Action Target="Visual;Monitor 1.Pilot Controls.Takeoff and Landing Panel.Nose;Helios.Base.Indicator;Nose" Name="set.indicator" />
       <LuaScript>return (tonumber(TriggerValue) &gt; 0.9)</LuaScript>
@@ -10449,121 +10504,6 @@
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Landing Gear Panel.Emergency Landing Gear Lever.changed" />
       <Action Target="Visual;Monitor 1.Pilot Controls.Emerg GndPow Panel.Emerg Gear Handle;Helios.Base.ToggleSwitch;Emerg Gear Handle" Name="set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Center MPCD (Pilot).Push Button 1.changed" />
-      <Action Target="Visual;Center MPCD (Pilot).Push Button 1;Helios.Base.PushButton;Push Button 1" Name="Center MPCD (Pilot)_Push Button 1.set.physical state" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Center MPCD (Pilot).Push Button 2.changed" />
-      <Action Target="Visual;Center MPCD (Pilot).Push Button 2;Helios.Base.PushButton;Push Button 2" Name="Center MPCD (Pilot)_Push Button 2.set.physical state" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Center MPCD (Pilot).Push Button 3.changed" />
-      <Action Target="Visual;Center MPCD (Pilot).Push Button 3;Helios.Base.PushButton;Push Button 3" Name="Center MPCD (Pilot)_Push Button 3.set.physical state" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Center MPCD (Pilot).Push Button 4.changed" />
-      <Action Target="Visual;Center MPCD (Pilot).Push Button 4;Helios.Base.PushButton;Push Button 4" Name="Center MPCD (Pilot)_Push Button 4.set.physical state" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Center MPCD (Pilot).Push Button 5.changed" />
-      <Action Target="Visual;Center MPCD (Pilot).Push Button 5;Helios.Base.PushButton;Push Button 5" Name="Center MPCD (Pilot)_Push Button 5.set.physical state" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Center MPCD (Pilot).Push Button 6.changed" />
-      <Action Target="Visual;Center MPCD (Pilot).Push Button 6;Helios.Base.PushButton;Push Button 6" Name="Center MPCD (Pilot)_Push Button 6.set.physical state" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Center MPCD (Pilot).Push Button 7.changed" />
-      <Action Target="Visual;Center MPCD (Pilot).Push Button 7;Helios.Base.PushButton;Push Button 7" Name="Center MPCD (Pilot)_Push Button 7.set.physical state" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Center MPCD (Pilot).Push Button 8.changed" />
-      <Action Target="Visual;Center MPCD (Pilot).Push Button 8;Helios.Base.PushButton;Push Button 8" Name="Center MPCD (Pilot)_Push Button 8.set.physical state" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Center MPCD (Pilot).Push Button 9.changed" />
-      <Action Target="Visual;Center MPCD (Pilot).Push Button 9;Helios.Base.PushButton;Push Button 9" Name="Center MPCD (Pilot)_Push Button 9.set.physical state" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Center MPCD (Pilot).Push Button 10.changed" />
-      <Action Target="Visual;Center MPCD (Pilot).Push Button 10;Helios.Base.PushButton;Push Button 10" Name="Center MPCD (Pilot)_Push Button 10.set.physical state" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Center MPCD (Pilot).Push Button 11.changed" />
-      <Action Target="Visual;Center MPCD (Pilot).Push Button 11;Helios.Base.PushButton;Push Button 11" Name="Center MPCD (Pilot)_Push Button 11.set.physical state" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Center MPCD (Pilot).Push Button 12.changed" />
-      <Action Target="Visual;Center MPCD (Pilot).Push Button 12;Helios.Base.PushButton;Push Button 12" Name="Center MPCD (Pilot)_Push Button 12.set.physical state" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Center MPCD (Pilot).Push Button 13.changed" />
-      <Action Target="Visual;Center MPCD (Pilot).Push Button 13;Helios.Base.PushButton;Push Button 13" Name="Center MPCD (Pilot)_Push Button 13.set.physical state" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Center MPCD (Pilot).Push Button 14.changed" />
-      <Action Target="Visual;Center MPCD (Pilot).Push Button 14;Helios.Base.PushButton;Push Button 14" Name="Center MPCD (Pilot)_Push Button 14.set.physical state" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Center MPCD (Pilot).Push Button 15.changed" />
-      <Action Target="Visual;Center MPCD (Pilot).Push Button 15;Helios.Base.PushButton;Push Button 15" Name="Center MPCD (Pilot)_Push Button 15.set.physical state" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Center MPCD (Pilot).Push Button 16.changed" />
-      <Action Target="Visual;Center MPCD (Pilot).Push Button 16;Helios.Base.PushButton;Push Button 16" Name="Center MPCD (Pilot)_Push Button 16.set.physical state" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Center MPCD (Pilot).Push Button 17.changed" />
-      <Action Target="Visual;Center MPCD (Pilot).Push Button 17;Helios.Base.PushButton;Push Button 17" Name="Center MPCD (Pilot)_Push Button 17.set.physical state" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Center MPCD (Pilot).Push Button 18.changed" />
-      <Action Target="Visual;Center MPCD (Pilot).Push Button 18;Helios.Base.PushButton;Push Button 18" Name="Center MPCD (Pilot)_Push Button 18.set.physical state" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Center MPCD (Pilot).Push Button 19.changed" />
-      <Action Target="Visual;Center MPCD (Pilot).Push Button 19;Helios.Base.PushButton;Push Button 19" Name="Center MPCD (Pilot)_Push Button 19.set.physical state" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Center MPCD (Pilot).Push Button 20.changed" />
-      <Action Target="Visual;Center MPCD (Pilot).Push Button 20;Helios.Base.PushButton;Push Button 20" Name="Center MPCD (Pilot)_Push Button 20.set.physical state" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Center MPCD (Pilot).Power Switch.changed" />
-      <Action Target="Visual;Center MPCD (Pilot).Center MPCD (Pilot)_Power Switch;Helios.Base.RockerSwitch;Center MPCD (Pilot)_Power Switch" Name="Center MPCD (Pilot)_Power Switch.set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Center MPCD (Pilot).Brightness Control.changed" />
-      <Action Target="Visual;Center MPCD (Pilot).Center MPCD (Pilot)_Brightness Control;Helios.Base.RockerSwitch;Center MPCD (Pilot)_Brightness Control" Name="Center MPCD (Pilot)_Brightness Control.set.position" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Center MPCD (Pilot).Contrast Control.changed" />
-      <Action Target="Visual;Center MPCD (Pilot).Center MPCD (Pilot)_Contrast Control;Helios.Base.RockerSwitch;Center MPCD (Pilot)_Contrast Control" Name="Center MPCD (Pilot)_Contrast Control.set.position" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -10682,13 +10622,28 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Pilot Controls.Clock Panel.clock adj knob;Helios.Base.PotentiometerEndless;clock adj knob" Name="value.changed" />
-      <Action Target="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Clock (Pilot).set.Clock Adjust" />
+      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Flight Instruments.Magnetic Compass Heading.changed" />
+      <Action Target="Visual;Monitor 1.Pilot Controls.Compass Panel.Magnetic Compass (Pilot).Flight Instruments_Magnetic Compass;Helios.F15E.Instruments.Compass;Flight Instruments_Magnetic Compass" Name="Flight Instruments_Magnetic Compass.set.Magnetic Compass Heading" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Pilot Controls.Clock Panel.timer stop knob;Helios.Base.PotentiometerEndless;timer stop knob" Name="value.changed" />
-      <Action Target="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Clock (Pilot).set.Timer Stop" />
+      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Flight Instruments.Magnetic Compass Roll.changed" />
+      <Action Target="Visual;Monitor 1.Pilot Controls.Compass Panel.Magnetic Compass (Pilot).Flight Instruments_Magnetic Compass;Helios.F15E.Instruments.Compass;Flight Instruments_Magnetic Compass" Name="Flight Instruments_Magnetic Compass.set.Magnetic Compass Roll" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Flight Instruments.Magnetic Compass Pitch.changed" />
+      <Action Target="Visual;Monitor 1.Pilot Controls.Compass Panel.Magnetic Compass (Pilot).Flight Instruments_Magnetic Compass;Helios.F15E.Instruments.Compass;Flight Instruments_Magnetic Compass" Name="Flight Instruments_Magnetic Compass.set.Magnetic Compass Pitch" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Flight Instruments (WSO).Master Caution Button.changed" />
+      <Action Target="Visual;Monitor 1.WSO Controls.Master Caution.Master caution;Helios.Base.IndicatorPushButton;Master caution" Name="set.physical state" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Flight Instruments (WSO).Master Warning Indicator.changed" />
+      <Action Target="Visual;Monitor 1.WSO Controls.Master Caution.Master caution;Helios.Base.IndicatorPushButton;Master caution" Name="set.indicator" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -10939,6 +10894,16 @@
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 1.Pilot Controls.Left MPD (Pilot).Left MPD (Pilot)_Contrast Control;Helios.Base.RockerSwitch;Left MPD (Pilot)_Contrast Control" Name="Left MPD (Pilot)_Contrast Control.position.changed" />
       <Action Target="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Left MPD (Pilot).set.Contrast Control" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Controls.Clock Panel.clock adj knob;Helios.Base.PotentiometerEndless;clock adj knob" Name="value.changed" />
+      <Action Target="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Clock (Pilot).set.Clock Adjust" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Controls.Clock Panel.timer stop knob;Helios.Base.PotentiometerEndless;timer stop knob" Name="value.changed" />
+      <Action Target="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Clock (Pilot).set.Timer Stop" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -11515,6 +11480,26 @@
       <Trigger Source="Visual;Monitor 1.Pilot Controls.Kneeboard Button;Helios.Base.PushButton;Kneeboard Button" Name="released" />
       <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
       <StaticValue>{RSHIFT}k</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Controls.Control Center button;Helios.Base.PushButton;Control Center button" Name="closed" />
+      <Action Target="Interface;;Helios.Base.ProfileInterface;Profile" Name="hide control center" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Controls.Control Center button;Helios.Base.PushButton;Control Center button" Name="open" />
+      <Action Target="Interface;;Helios.Base.ProfileInterface;Profile" Name="show control center" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Controls.Control Center button;Helios.Base.PushButton;Control Center button" Name="pushed" />
+      <Action Target="Visual;Monitor 1.WSO Controls.Control Center Button;Helios.Base.PushButton;Control Center Button" Name="push" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Controls.Control Center button;Helios.Base.PushButton;Control Center button" Name="released" />
+      <Action Target="Visual;Monitor 1.WSO Controls.Control Center Button;Helios.Base.PushButton;Control Center Button" Name="release" />
+      <StaticValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 1.Pilot Controls.Left Console.Ext Light  Sensor Panel.TF RDR Switch;Helios.Base.ThreeWayToggleSwitch;TF RDR Switch" Name="position.changed" />
@@ -14027,6 +14012,26 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.WSO Controls.Control Center Button;Helios.Base.PushButton;Control Center Button" Name="closed" />
+      <Action Target="Interface;;Helios.Base.ProfileInterface;Profile" Name="hide control center" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.WSO Controls.Control Center Button;Helios.Base.PushButton;Control Center Button" Name="open" />
+      <Action Target="Interface;;Helios.Base.ProfileInterface;Profile" Name="show control center" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.WSO Controls.Control Center Button;Helios.Base.PushButton;Control Center Button" Name="pushed" />
+      <Action Target="Visual;Monitor 1.Pilot Controls.Control Center button;Helios.Base.PushButton;Control Center button" Name="push" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.WSO Controls.Control Center Button;Helios.Base.PushButton;Control Center Button" Name="released" />
+      <Action Target="Visual;Monitor 1.Pilot Controls.Control Center button;Helios.Base.PushButton;Control Center button" Name="release" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 1.WSO Controls.WSO Consoles.Interior Lighting.Light Test Switch;Helios.Base.ToggleSwitch;Light Test Switch" Name="position.changed" />
       <Action Target="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Lights Internal Control Panel (WSO).set.Warning/Caution Lights Test" />
       <TriggerValue />
@@ -14158,13 +14163,13 @@
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 1.WSO Controls.WSO Consoles.CMD Panel.Jett Cover;Helios.Base.ToggleSwitch;Jett Cover" Name="position one.entered" />
-      <Action Target="Visual;Monitor 1.WSO Controls.WSO Consoles.CMD Panel.Jett Switch;Helios.Base.ToggleSwitch;Jett Switch" Name="toggle.hidden" />
-      <StaticValue />
+      <Action Target="Visual;Monitor 1.WSO Controls.WSO Consoles.CMD Panel.Jett Switch;Helios.Base.ToggleSwitch;Jett Switch" Name="set.hidden" />
+      <StaticValue>false</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.WSO Controls.WSO Consoles.CMD Panel.Jett Cover;Helios.Base.ToggleSwitch;Jett Cover" Name="position one.exited" />
-      <Action Target="Visual;Monitor 1.WSO Controls.WSO Consoles.CMD Panel.Jett Switch;Helios.Base.ToggleSwitch;Jett Switch" Name="toggle.hidden" />
-      <StaticValue />
+      <Trigger Source="Visual;Monitor 1.WSO Controls.WSO Consoles.CMD Panel.Jett Cover;Helios.Base.ToggleSwitch;Jett Cover" Name="position two.entered" />
+      <Action Target="Visual;Monitor 1.WSO Controls.WSO Consoles.CMD Panel.Jett Switch;Helios.Base.ToggleSwitch;Jett Switch" Name="set.hidden" />
+      <StaticValue>true</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 1.WSO Controls.WSO Consoles.CMD Panel.Jett Switch;Helios.Base.ToggleSwitch;Jett Switch" Name="position.changed" />
@@ -14247,19 +14252,19 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.WSO Controls.WSO Consoles.NUC Panel.NUC Cover;Helios.Base.ToggleSwitch;NUC Cover" Name="position two.entered" />
-      <Action Target="Visual;Monitor 1.WSO Controls.WSO Consoles.NUC Panel.NUC Switch;Helios.Base.ThreeWayToggleSwitch;NUC Switch" Name="toggle.hidden" />
-      <StaticValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.WSO Controls.WSO Consoles.NUC Panel.NUC Cover;Helios.Base.ToggleSwitch;NUC Cover" Name="position two.exited" />
-      <Action Target="Visual;Monitor 1.WSO Controls.WSO Consoles.NUC Panel.NUC Switch;Helios.Base.ThreeWayToggleSwitch;NUC Switch" Name="toggle.hidden" />
-      <StaticValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 1.WSO Controls.WSO Consoles.NUC Panel.NUC Cover;Helios.Base.ToggleSwitch;NUC Cover" Name="position.changed" />
       <Action Target="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Nuclear.set.Nuclear Consent Switch Cover" />
       <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.WSO Controls.WSO Consoles.NUC Panel.NUC Cover;Helios.Base.ToggleSwitch;NUC Cover" Name="position one.entered" />
+      <Action Target="Visual;Monitor 1.WSO Controls.WSO Consoles.NUC Panel.NUC Switch;Helios.Base.ThreeWayToggleSwitch;NUC Switch" Name="set.hidden" />
+      <StaticValue>false</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.WSO Controls.WSO Consoles.NUC Panel.NUC Cover;Helios.Base.ToggleSwitch;NUC Cover" Name="position two.entered" />
+      <Action Target="Visual;Monitor 1.WSO Controls.WSO Consoles.NUC Panel.NUC Switch;Helios.Base.ThreeWayToggleSwitch;NUC Switch" Name="set.hidden" />
+      <StaticValue>true</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 1.WSO Controls.WSO Consoles.NUC Panel.NUC Switch;Helios.Base.ThreeWayToggleSwitch;NUC Switch" Name="position.changed" />
@@ -14662,13 +14667,13 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.WSO Seat Button;Helios.Base.PushButton;WSO Seat Button" Name="released" />
-      <Action Target="Visual;Monitor 1.Pilot Seat Button;Helios.Base.PushButton;Pilot Seat Button" Name="toggle.hidden" />
+      <Trigger Source="Visual;Monitor 1.WSO Controls.Master Caution.Master caution;Helios.Base.IndicatorPushButton;Master caution" Name="pushed" />
+      <Action Target="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Flight Instruments (WSO).push.Master Caution Button" />
       <StaticValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.WSO Seat Button;Helios.Base.PushButton;WSO Seat Button" Name="released" />
-      <Action Target="Visual;Monitor 1.WSO Seat Button;Helios.Base.PushButton;WSO Seat Button" Name="toggle.hidden" />
+      <Trigger Source="Visual;Monitor 1.WSO Controls.Master Caution.Master caution;Helios.Base.IndicatorPushButton;Master caution" Name="released" />
+      <Action Target="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Flight Instruments (WSO).release.Master Caution Button" />
       <StaticValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -14697,14 +14702,14 @@
       <StaticValue>true</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Pilot Seat Button;Helios.Base.PushButton;Pilot Seat Button" Name="released" />
-      <Action Target="Visual;Monitor 1.Pilot Seat Button;Helios.Base.PushButton;Pilot Seat Button" Name="toggle.hidden" />
-      <StaticValue />
+      <Trigger Source="Visual;Monitor 1.WSO Seat Button;Helios.Base.PushButton;WSO Seat Button" Name="released" />
+      <Action Target="Visual;Monitor 1.WSO Seat Button;Helios.Base.PushButton;WSO Seat Button" Name="set.hidden" />
+      <StaticValue>True</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Pilot Seat Button;Helios.Base.PushButton;Pilot Seat Button" Name="released" />
-      <Action Target="Visual;Monitor 1.WSO Seat Button;Helios.Base.PushButton;WSO Seat Button" Name="toggle.hidden" />
-      <StaticValue />
+      <Trigger Source="Visual;Monitor 1.WSO Seat Button;Helios.Base.PushButton;WSO Seat Button" Name="released" />
+      <Action Target="Visual;Monitor 1.Pilot Seat Button;Helios.Base.PushButton;Pilot Seat Button" Name="set.hidden" />
+      <StaticValue>False</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 1.Pilot Seat Button;Helios.Base.PushButton;Pilot Seat Button" Name="released" />
@@ -14730,6 +14735,16 @@
       <Trigger Source="Visual;Monitor 1.Pilot Seat Button;Helios.Base.PushButton;Pilot Seat Button" Name="released" />
       <Action Target="Visual;Monitor 1.WSO Base;Helios.Base.Image;WSO Base" Name="set.hidden" />
       <StaticValue>false</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Seat Button;Helios.Base.PushButton;Pilot Seat Button" Name="released" />
+      <Action Target="Visual;Monitor 1.WSO Seat Button;Helios.Base.PushButton;WSO Seat Button" Name="set.hidden" />
+      <StaticValue>False</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Seat Button;Helios.Base.PushButton;Pilot Seat Button" Name="released" />
+      <Action Target="Visual;Monitor 1.Pilot Seat Button;Helios.Base.PushButton;Pilot Seat Button" Name="set.hidden" />
+      <StaticValue>True</StaticValue>
     </Binding>
   </Bindings>
 </HeliosProfile>
