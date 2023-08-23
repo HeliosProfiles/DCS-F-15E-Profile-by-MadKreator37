@@ -7,8 +7,8 @@ name: CreateHelios16
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push request events but only for the main branch
-  push:
-    branches: [ main ]
+  #push:
+  #  branches: [ main ]
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -105,6 +105,7 @@ jobs:
         run: |
           echo "ABOUT<<EOF" >> $GITHUB_ENV
           echo "$(cat './${{ env.VEHICLECOMMONNAME }} - About this profile.md')" >> $GITHUB_ENV
+          echo "$(cat './README.md')" >> $GITHUB_ENV
           echo "EOF" >> $GITHUB_ENV
       - name: Create Release
         id: create_release
