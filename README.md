@@ -6,12 +6,51 @@
 This is a Helios profile for [Razbam's F-15E Strike Eagle Module for DCS](https://www.razbamsimulationsllc.com/f-15e-strike-eagle) designed for DCS World. 
 This profile utilises an aircraft specifc interface which was written into the Helios Virtual Cockpit project called **Helios**.  This can be downloaded from [Helios latest release](https://github.com/HeliosVirtualCockpit/Helios/releases/latest)
 In addition to the profile, the MFDs can have their viewports exported using patches provided by Helios.
+### IMPORTANT!
+You *MUST* be running Helios 1.6.602 minumin *AND* have the F-15E plugin installed. Please visit the link above to download the latest releases of both.
 
-[![image](https://github.com/HeliosProfiles/DCS-F-15E-Profile-by-MadKreator37/assets/18526232/34c20083-276c-465f-817a-49283da94323)
-](https://youtu.be/qvBxdbHKSD8)
+### ABOUT
+This profile was designed and created by myself, in close collaboration with BlueFin. All parts were cut and modified from the 3d model of the F-15 cockpit, texture files or replicas were designed and created from scratch by BlueFin. Every piece used is specific to the F-15E.  The hope is to bring you the most complete, visually appealing and easy to use profile for RAZBAM'S F-15E for DCS that we could. This Profile includes *BOTH* Pilot and WSO seats all in one shot. Seat position  in the profile and in the game will switch simultaneously as well as the viewports. This will allow you to use both seats as a single player, or pick whichever one you want to play in MP with the push of a button. There are several added functions in the profile, such as buttons for the F-10 map, rearm/refuel window, briefing menu etc. 
+
+*NOTE*: The added functions: F1, F10, F6, Esc, Rearm, Briefing and Kneeboard as well as the functioning ejection seat handles,  require the defalt DCS keybindings for them to work properly. If you have altered any of these then some functions may not work as intended.
+
+### IMAGES
+
+-Pilot Seat-
+![Screenshot 2023-08-23 130521](https://github.com/HeliosProfiles/DCS-F-15E-Profile-by-MadKreator37/assets/110797278/d4155008-7af5-4770-aa95-b5167f622031)
+
+![Screenshot 2023-08-23 130645](https://github.com/HeliosProfiles/DCS-F-15E-Profile-by-MadKreator37/assets/110797278/abc9e079-a821-4615-8132-ff9ee7373307)
+
+![Screenshot 2023-08-23 130653](https://github.com/HeliosProfiles/DCS-F-15E-Profile-by-MadKreator37/assets/110797278/e67dddae-46ad-45bb-b9fc-298e7e215291)
+
+![Screenshot 2023-08-23 130724](https://github.com/HeliosProfiles/DCS-F-15E-Profile-by-MadKreator37/assets/110797278/fc763dc4-b47f-4345-b506-2cb6aa3f467d)
+
+-WSO Seat-
+![Screenshot 2023-08-23 130540](https://github.com/HeliosProfiles/DCS-F-15E-Profile-by-MadKreator37/assets/110797278/cfb072c4-5d0e-4bea-bdfa-02db0fd4a674)
+
+![Screenshot 2023-08-23 130610](https://github.com/HeliosProfiles/DCS-F-15E-Profile-by-MadKreator37/assets/110797278/7519b643-a452-41a3-8dfb-d0fd3c95b11d)
+
+![Screenshot 2023-08-23 130625](https://github.com/HeliosProfiles/DCS-F-15E-Profile-by-MadKreator37/assets/110797278/545040ab-d753-4f4c-91fb-51240a857543)
+
+![Screenshot 2023-08-23 130618](https://github.com/HeliosProfiles/DCS-F-15E-Profile-by-MadKreator37/assets/110797278/f0ceb9c2-4c1d-4a0d-a756-e37c2152f045)
+
 
 ### Limited Support
-[Discord](https://discord.gg/WK44YUnwnQ)
+
+Helios Official/ CaptnZeen [Discord](https://discord.gg/sJZDzmEW)
+
+or
+
+MadKreator37  [Discord](https://discord.gg/nzyfQr3K)
+
+### Known Bugs and Issues
+
+Due to some limitations there are a couple functions which are not implemented at this time: JFS Handle rotation and Pilot Emergency Gear handle turn and release. If I think of a good workaround I will add it to later releases.
+
+There is a bug in the ADI pitch offset adjustment ("wings" movement from the helios control) that is being looked into.
+
+The WSO LGB bomb code panel is not implemented since it's really a function of the COMMS menu. 
+
 ### Note
 
 **Remember to always make a back up of files before making changes**
