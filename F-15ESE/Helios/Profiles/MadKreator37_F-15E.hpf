@@ -1846,7 +1846,7 @@
               <Location>50,997</Location>
               <Size>88,27</Size>
               <Hidden>False</Hidden>
-              <Type>Toggle</Type>
+              <Type>Momentary</Type>
               <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Norm.png</Image>
               <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Pressed.png</PushedImage>
               <Text>

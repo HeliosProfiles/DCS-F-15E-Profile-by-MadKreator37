@@ -23,7 +23,7 @@
 					"Version":	"_ProfileVersionNumber",
 					"AspectRatio": "16:9",
 					"NativeResolution": "1920x1080",
-                    "Description": "Aicraft:\t\t_Author F-15E Strike Eagle _ProfileVersionNumber\nRequirements:\tHelios _MinimumReleaseLevel or above\nDownload:\t_Repository\nAspect Ratio:\t16:9\nDefault Size:\t1920x1080\nRelease Date:\t_ReleaseDate",
+                    "Description": "Aicraft:\t\t_Author F-15E Strike Eagle _ProfileVersionNumber\nRequirements:\tHelios and F-15E Plugin _MinimumReleaseLevel or above\nDownload:\t_Repository\nAspect Ratio:\t16:9\nDefault Size:\t1920x1080\nRelease Date:\t_ReleaseDate",
                     "Excludes": [
                     ],
 					"VersionsRequired": [
