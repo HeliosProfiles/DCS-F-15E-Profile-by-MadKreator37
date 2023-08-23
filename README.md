@@ -28,12 +28,11 @@ This profile was designed and created by myself, in close collaboration with Blu
 -WSO Seat-
 ![Screenshot 2023-08-23 130540](https://github.com/HeliosProfiles/DCS-F-15E-Profile-by-MadKreator37/assets/110797278/cfb072c4-5d0e-4bea-bdfa-02db0fd4a674)
 
-![Screenshot 2023-08-23 130610](https://github.com/HeliosProfiles/DCS-F-15E-Profile-by-MadKreator37/assets/110797278/7519b643-a452-41a3-8dfb-d0fd3c95b11d)
+![Screenshot 2023-08-23 152140](https://github.com/HeliosProfiles/DCS-F-15E-Profile-by-MadKreator37/assets/110797278/ee2c4bb6-7593-4f37-b994-65dd76ee0f5b)
 
-![Screenshot 2023-08-23 130625](https://github.com/HeliosProfiles/DCS-F-15E-Profile-by-MadKreator37/assets/110797278/545040ab-d753-4f4c-91fb-51240a857543)
+![Screenshot 2023-08-23 152205](https://github.com/HeliosProfiles/DCS-F-15E-Profile-by-MadKreator37/assets/110797278/03e2b54e-a032-472b-bdde-2a4d8ea81583)
 
-![Screenshot 2023-08-23 130618](https://github.com/HeliosProfiles/DCS-F-15E-Profile-by-MadKreator37/assets/110797278/f0ceb9c2-4c1d-4a0d-a756-e37c2152f045)
-
+![Screenshot 2023-08-23 152158](https://github.com/HeliosProfiles/DCS-F-15E-Profile-by-MadKreator37/assets/110797278/2871f0db-6c90-4253-861e-55090859c135)
 
 ### Limited Support
 
