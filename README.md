@@ -7,7 +7,8 @@ This is a Helios profile for [Razbam's F-15E Strike Eagle Module for DCS](https:
 This profile utilises an aircraft specifc interface which was written into the Helios Virtual Cockpit project called **Helios**.  This can be downloaded from [Helios latest release](https://github.com/HeliosVirtualCockpit/Helios/releases/latest)
 In addition to the profile, the MFDs can have their viewports exported using patches provided by Helios.
 
-[Video of the profile in action](https://youtu.be/qvBxdbHKSD8)
+[![image](https://github.com/HeliosProfiles/DCS-F-15E-Profile-by-MadKreator37/assets/18526232/34c20083-276c-465f-817a-49283da94323)
+](https://youtu.be/qvBxdbHKSD8)
 
 ### Limited Support
 [Discord](https://discord.gg/WK44YUnwnQ)
