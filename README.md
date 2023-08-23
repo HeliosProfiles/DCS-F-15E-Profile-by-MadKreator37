@@ -12,7 +12,7 @@ You *MUST* be running Helios 1.6.602 minimum *AND* have the newest F-15E plugin 
 ### ABOUT
 This profile was designed and created by myself, in close collaboration with BlueFin. All parts were cut and modified from the 3d model of the F-15 cockpit, texture files or replicas were designed and created from scratch by BlueFin. Every piece used is specific to the F-15E.  The hope is to bring you the most complete, visually appealing and easy to use profile for RAZBAM'S F-15E for DCS that we could. This profile includes *BOTH* Pilot and WSO seats all in one shot. Seat position in the profile, and in the game, will switch simultaneously as well as the viewports. This will allow you to use both seats as a single player, or pick whichever one you want to play in MP with the push of a button. There are several added functions in the profile, such as buttons for the F-10 map, rearm/refuel window, briefing menu etc. 
 
-*NOTE*: The added functions: F1, F10, F6, Esc, Rearm, Briefing and Kneeboard as well as the functioning ejection seat handles,  require the defalt DCS keybindings for them to work properly. If you have altered any of these then some functions may not work as intended.
+*NOTE*: The added functions: F1, F10, F6, Esc, Rearm, Briefing and Kneeboard as well as the functioning ejection seat handles,  require the default DCS keybindings for them to work properly. If you have altered any of these then some functions may not work as intended.
 
 ### IMAGES
 
