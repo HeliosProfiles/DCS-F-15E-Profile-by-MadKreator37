@@ -699,7 +699,6 @@
               <Size>400,395</Size>
               <Hidden>False</Hidden>
               <EmbeddedViewportName>F_15E_CENTER_MPCD_PLT</EmbeddedViewportName>
-              <GlassReflectionOpacity>0.3</GlassReflectionOpacity>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.F15E.CAUTIONS.PILOT" Name="Caution Panel (Pilot)" SnapTarget="True" Locked="True">
@@ -6587,7 +6586,7 @@
                       <Hidden>True</Hidden>
                       <SwitchType>MomOn</SwitchType>
                       <Orientation>Vertical</Orientation>
-                      <ClickType>Touch</ClickType>
+                      <ClickType>Swipe</ClickType>
                       <PositionOneImage>MadKreator37/F-15E/Buttons_And_Switches/Console_Switch_2_Up.png</PositionOneImage>
                       <PositionTwoImage>MadKreator37/F-15E/Buttons_And_Switches/Console_Switch_2_Down.png</PositionTwoImage>
                       <DefaultPosition>Two</DefaultPosition>
