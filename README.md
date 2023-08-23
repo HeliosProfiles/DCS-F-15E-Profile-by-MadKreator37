@@ -44,12 +44,14 @@ MadKreator37  [Discord](https://discord.gg/nzyfQr3K)
 
 ### Known Bugs and Issues
 
-Due to some limitations there are a couple functions which are not implemented at this time: JFS Handle rotation and Pilot Emergency Gear handle turn and release. If I think of a good workaround I will add it to later releases.
+Due to some limitations there are a couple of functions which are not implemented at this time: JFS Handle rotation and Pilot Emergency Gear handle turn and release. If I think of a good workaround I will add it to later releases.
 
 There is a bug in the ADI pitch offset adjustment ("wings" movement from the helios control) that is being looked into.
 
 The WSO LGB bomb code panel is not implemented since it's really a function of the COMMS menu. 
 
-### Note
+### Notes
 
-**Remember to always make a back up of files before making changes**
+-Due to the wide range of displays, monitors, TV's and tablets,  I cannot guarantee exact brightness levels or color accuracy results from user to user. This is not something I have any control of. If you have visual issues (too bright or too dark etc)  please calibrate your display and/or adjust settings in your GPU's software, brightness, contrast, sharpness, gamma, digital vibrance etc.(highly recommended anyway). It will probably enhance all other profiles as well. During testing, the profile was used and shown on multiple displays, and types,  to rule out any "game breaking" visuals but it is impossible for me to account for every scenario.
+
+-*Remember to always make a back up of files before making changes*
