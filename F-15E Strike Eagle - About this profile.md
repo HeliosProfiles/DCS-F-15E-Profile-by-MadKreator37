@@ -2,7 +2,7 @@
 
 This profile has been created by MadKreator37 and is maintained on [GitHub](_ProjectURL) and is available under the GNU General Public License v3.0.
 
-The latest version of this profile can be found [here](_Repository)
+The latest version of this profile can be found [here](https://github.com/HeliosProfiles/DCS-F-15E-Profile-by-MadKreator37/tree/main)
 
 The build for this profile is based on _commit
 
