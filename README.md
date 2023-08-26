@@ -1,10 +1,10 @@
 [![CreateHelios16](https://github.com/HeliosProfiles/DCS-F-15E-Profile-by-MadKreator37/actions/workflows/BuildProfilePackage.yml/badge.svg)](https://github.com/HeliosProfiles/DCS-F-15E-Profile-by-MadKreator37/actions/workflows/BuildProfilePackage.yml)
 # DCS F-15E Helios Profile by MadKreator37 
+## Download the Profile helios16 package from [the __Assets__ section here](https://github.com/HeliosProfiles/DCS-F-15E-Profile-by-MadKreator37/releases/latest)
 ----
-## If you only want this profile * * __DON'T  CLONE__ * * the repository.  Simply download the __helios16__ file from the **Assets** section at the bottom of the release.
+### If you only want this profile * * DON'T  CLONE * * the repository.  Simply download the __helios16__ file from the **Assets** section at the bottom of the release.
 ![image](https://github.com/HeliosProfiles/DCS-F-15E-Profile-by-MadKreator37/assets/18526232/55f93a35-0452-478b-961d-e0c7d84feccc)
 
-### Download the Profile helio16 package from [the __Assets__ section here](https://github.com/HeliosProfiles/DCS-F-15E-Profile-by-MadKreator37/releases/latest)
 ----
 ## The Profile
 This is a Helios profile for [Razbam's F-15E Strike Eagle Module for DCS](https://www.razbamsimulationsllc.com/f-15e-strike-eagle) designed for DCS World and contributed by @MadKreator37 . 
