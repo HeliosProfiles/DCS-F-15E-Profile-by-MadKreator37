@@ -104,6 +104,7 @@ jobs:
         id: getAbout
         run: |
           echo "ABOUT<<EOF" >> $GITHUB_ENV
+          echo "$(cat './DOWNLOADING.md')" >> $GITHUB_ENV
           echo "$(cat './${{ env.VEHICLECOMMONNAME }} - About this profile.md')" >> $GITHUB_ENV
           echo "$(cat './README.md')" >> $GITHUB_ENV
           echo "EOF" >> $GITHUB_ENV
