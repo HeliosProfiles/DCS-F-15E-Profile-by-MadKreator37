@@ -215,9 +215,9 @@
                 </Control>
                 <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image" SnapTarget="False" Locked="True">
                   <Image>MadKreator37/F-15E/crystal_002.png</Image>
-                  <Alignment>Centered</Alignment>
+                  <Alignment>Stretched</Alignment>
                   <CornerRadius>0</CornerRadius>
-                  <DefaultOpacity>0.45052160180577</DefaultOpacity>
+                  <DefaultOpacity>0.362443466713483</DefaultOpacity>
                   <Interaction>
                     <AllowInteraction>False</AllowInteraction>
                   </Interaction>
@@ -228,14 +228,14 @@
                 </Control>
                 <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 1" SnapTarget="False" Locked="True">
                   <Image>MadKreator37/F-15E/Sphere.png</Image>
-                  <Alignment>Centered</Alignment>
+                  <Alignment>Stretched</Alignment>
                   <CornerRadius>0</CornerRadius>
                   <DefaultOpacity>0.122529588303744</DefaultOpacity>
                   <Interaction>
                     <AllowInteraction>False</AllowInteraction>
                   </Interaction>
                   <Location>0,-3</Location>
-                  <Size>302,283</Size>
+                  <Size>284,284</Size>
                   <Rotation>CW</Rotation>
                   <Hidden>False</Hidden>
                   <Children />
@@ -413,7 +413,7 @@
                   <Hidden>False</Hidden>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.Potentiometer" Name="Waterline Adjust" SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.Potentiometer" Name="pitch offset knob" SnapTarget="True" Locked="True">
                   <Location>143,138</Location>
                   <Size>59,59</Size>
                   <Hidden>False</Hidden>
@@ -708,12 +708,12 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="Caution Panel Button Transparent" SnapTarget="True" Locked="True">
-              <Location>1163,932</Location>
-              <Size>48,130</Size>
+              <Location>1165,937</Location>
+              <Size>43,112</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
               <Image>MadKreator37/F-15E/Transparent_Image.png</Image>
-              <PushedImage>MadKreator37/F-15E/Transparent_Image.png</PushedImage>
+              <PushedImage>MadKreator37\F-15E\Translucent_Black_Square.png</PushedImage>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.F15E.FuelPanel.Pilot" Name="Fuel Monitor Panel" SnapTarget="True" Locked="True">
@@ -1568,7 +1568,7 @@
                   <FontFamily>Franklin Gothic</FontFamily>
                   <FontStyle>Normal</FontStyle>
                   <FontWeight>Normal</FontWeight>
-                  <FontSize>13</FontSize>
+                  <FontSize>14</FontSize>
                   <HorizontalAlignment>Center</HorizontalAlignment>
                   <VerticalAlignment>Center</VerticalAlignment>
                   <Padding>
@@ -1596,7 +1596,7 @@
                   <FontFamily>Franklin Gothic</FontFamily>
                   <FontStyle>Normal</FontStyle>
                   <FontWeight>Normal</FontWeight>
-                  <FontSize>12</FontSize>
+                  <FontSize>13</FontSize>
                   <HorizontalAlignment>Center</HorizontalAlignment>
                   <VerticalAlignment>Center</VerticalAlignment>
                   <Padding>
@@ -1624,7 +1624,7 @@
                   <FontFamily>Franklin Gothic</FontFamily>
                   <FontStyle>Normal</FontStyle>
                   <FontWeight>Normal</FontWeight>
-                  <FontSize>12</FontSize>
+                  <FontSize>13</FontSize>
                   <HorizontalAlignment>Center</HorizontalAlignment>
                   <VerticalAlignment>Center</VerticalAlignment>
                   <Padding>
@@ -1652,7 +1652,7 @@
                   <FontFamily>Franklin Gothic</FontFamily>
                   <FontStyle>Normal</FontStyle>
                   <FontWeight>Normal</FontWeight>
-                  <FontSize>12</FontSize>
+                  <FontSize>13</FontSize>
                   <HorizontalAlignment>Center</HorizontalAlignment>
                   <VerticalAlignment>Center</VerticalAlignment>
                   <Padding>
@@ -1663,117 +1663,6 @@
                   </Padding>
                 </Font>
                 <Text>F10      MAP</Text>
-                <ScalingMode>None</ScalingMode>
-              </Text>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="Rearm base" SnapTarget="False" Locked="True">
-              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
-              <Alignment>Stretched</Alignment>
-              <CornerRadius>0</CornerRadius>
-              <Location>1581,762</Location>
-              <Size>117,38</Size>
-              <Hidden>False</Hidden>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.PushButton" Name="Rearm button" SnapTarget="True" Locked="True">
-              <Location>1598,767</Location>
-              <Size>80,22</Size>
-              <Hidden>False</Hidden>
-              <Type>Momentary</Type>
-              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Norm.png</Image>
-              <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Pressed.png</PushedImage>
-              <Text>
-                <Color>#FFF8F8F8</Color>
-                <Font>
-                  <FontFamily>Franklin Gothic</FontFamily>
-                  <FontStyle>Normal</FontStyle>
-                  <FontWeight>Normal</FontWeight>
-                  <FontSize>11</FontSize>
-                  <HorizontalAlignment>Center</HorizontalAlignment>
-                  <VerticalAlignment>Center</VerticalAlignment>
-                  <Padding>
-                    <Left>0</Left>
-                    <Top>0</Top>
-                    <Right>0</Right>
-                    <Bottom>0</Bottom>
-                  </Padding>
-                </Font>
-                <Text>REARM/REFUEL</Text>
-                <ScalingMode>None</ScalingMode>
-              </Text>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="Briefing base" SnapTarget="False" Locked="True">
-              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
-              <Alignment>Stretched</Alignment>
-              <CornerRadius>0</CornerRadius>
-              <Location>1452,762</Location>
-              <Size>118,38</Size>
-              <Hidden>False</Hidden>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.PushButton" Name="Briefing Button" SnapTarget="True" Locked="True">
-              <Location>1469,767</Location>
-              <Size>80,22</Size>
-              <Hidden>False</Hidden>
-              <Type>Momentary</Type>
-              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Norm.png</Image>
-              <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Pressed.png</PushedImage>
-              <Text>
-                <Color>#FFF8F8F8</Color>
-                <Font>
-                  <FontFamily>Franklin Gothic</FontFamily>
-                  <FontStyle>Normal</FontStyle>
-                  <FontWeight>Normal</FontWeight>
-                  <FontSize>12</FontSize>
-                  <HorizontalAlignment>Center</HorizontalAlignment>
-                  <VerticalAlignment>Center</VerticalAlignment>
-                  <Padding>
-                    <Left>0</Left>
-                    <Top>0</Top>
-                    <Right>0</Right>
-                    <Bottom>0</Bottom>
-                  </Padding>
-                </Font>
-                <Text>BRIEFING</Text>
-                <ScalingMode>None</ScalingMode>
-              </Text>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="Kneeboard Base" SnapTarget="False" Locked="True">
-              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
-              <Alignment>Stretched</Alignment>
-              <CornerRadius>0</CornerRadius>
-              <Location>1707,762</Location>
-              <Size>117,38</Size>
-              <Hidden>False</Hidden>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.PushButton" Name="Kneeboard Button" SnapTarget="True" Locked="True">
-              <Location>1724,767</Location>
-              <Size>80,22</Size>
-              <Hidden>False</Hidden>
-              <Type>Momentary</Type>
-              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Norm.png</Image>
-              <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Pressed.png</PushedImage>
-              <Text>
-                <Color>#FFFDFDFD</Color>
-                <Font>
-                  <FontFamily>Franklin Gothic</FontFamily>
-                  <FontStyle>Normal</FontStyle>
-                  <FontWeight>Normal</FontWeight>
-                  <FontSize>12</FontSize>
-                  <HorizontalAlignment>Center</HorizontalAlignment>
-                  <VerticalAlignment>Center</VerticalAlignment>
-                  <Padding>
-                    <Left>0</Left>
-                    <Top>0</Top>
-                    <Right>0</Right>
-                    <Bottom>0</Bottom>
-                  </Padding>
-                </Font>
-                <Text>KNEEBOARD</Text>
                 <ScalingMode>None</ScalingMode>
               </Text>
               <Children />
@@ -1893,6 +1782,209 @@
               <Location>38,987</Location>
               <Size>118,20</Size>
               <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Image" Name="Briefing base" SnapTarget="False" Locked="True">
+              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
+              <Alignment>Stretched</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <Location>1452,761</Location>
+              <Size>118,38</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Briefing Button" SnapTarget="True" Locked="True">
+              <Location>1469,766</Location>
+              <Size>80,22</Size>
+              <Hidden>False</Hidden>
+              <Type>Momentary</Type>
+              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Norm.png</Image>
+              <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Pressed.png</PushedImage>
+              <Text>
+                <Color>#FFF8F8F8</Color>
+                <Font>
+                  <FontFamily>Franklin Gothic</FontFamily>
+                  <FontStyle>Normal</FontStyle>
+                  <FontWeight>Normal</FontWeight>
+                  <FontSize>13</FontSize>
+                  <HorizontalAlignment>Center</HorizontalAlignment>
+                  <VerticalAlignment>Center</VerticalAlignment>
+                  <Padding>
+                    <Left>0</Left>
+                    <Top>0</Top>
+                    <Right>0</Right>
+                    <Bottom>0</Bottom>
+                  </Padding>
+                </Font>
+                <Text>BRIEFING</Text>
+                <ScalingMode>None</ScalingMode>
+              </Text>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Image" Name="Rearm base" SnapTarget="False" Locked="True">
+              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
+              <Alignment>Stretched</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <Location>1707,761</Location>
+              <Size>117,38</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Rearm button" SnapTarget="True" Locked="True">
+              <Location>1724,766</Location>
+              <Size>80,22</Size>
+              <Hidden>False</Hidden>
+              <Type>Momentary</Type>
+              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Norm.png</Image>
+              <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Pressed.png</PushedImage>
+              <Text>
+                <Color>#FFF8F8F8</Color>
+                <Font>
+                  <FontFamily>Franklin Gothic</FontFamily>
+                  <FontStyle>Normal</FontStyle>
+                  <FontWeight>Normal</FontWeight>
+                  <FontSize>13</FontSize>
+                  <HorizontalAlignment>Center</HorizontalAlignment>
+                  <VerticalAlignment>Center</VerticalAlignment>
+                  <Padding>
+                    <Left>0</Left>
+                    <Top>0</Top>
+                    <Right>0</Right>
+                    <Bottom>0</Bottom>
+                  </Padding>
+                </Font>
+                <Text>REARM</Text>
+                <ScalingMode>None</ScalingMode>
+              </Text>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Image" Name="Kneeboard base" SnapTarget="False" Locked="True">
+              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
+              <Alignment>Stretched</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <Location>1580,761</Location>
+              <Size>117,38</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Kneeboard Button" SnapTarget="True" Locked="True">
+              <Location>1597,766</Location>
+              <Size>80,22</Size>
+              <Hidden>False</Hidden>
+              <Type>Momentary</Type>
+              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Norm.png</Image>
+              <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Pressed.png</PushedImage>
+              <Text>
+                <Color>#FFFDFDFD</Color>
+                <Font>
+                  <FontFamily>Franklin Gothic</FontFamily>
+                  <FontStyle>Normal</FontStyle>
+                  <FontWeight>Normal</FontWeight>
+                  <FontSize>12.5</FontSize>
+                  <HorizontalAlignment>Center</HorizontalAlignment>
+                  <VerticalAlignment>Center</VerticalAlignment>
+                  <Padding>
+                    <Left>0</Left>
+                    <Top>0</Top>
+                    <Right>0</Right>
+                    <Bottom>0</Bottom>
+                  </Padding>
+                </Font>
+                <Text>KNEEBOARD</Text>
+                <ScalingMode>None</ScalingMode>
+              </Text>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Image" Name="kneeboard left base" SnapTarget="False" Locked="True">
+              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
+              <Alignment>Stretched</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <Location>1558,761</Location>
+              <Size>35,37</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Kneeboard left button" SnapTarget="True" Locked="True">
+              <Location>1564,766</Location>
+              <Size>22,22</Size>
+              <Hidden>False</Hidden>
+              <Type>Momentary</Type>
+              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Norm.png</Image>
+              <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Pressed.png</PushedImage>
+              <Text>
+                <Color>#FFFFFFFF</Color>
+                <Font>
+                  <FontFamily>Franklin Gothic</FontFamily>
+                  <FontStyle>Normal</FontStyle>
+                  <FontWeight>Normal</FontWeight>
+                  <FontSize>18</FontSize>
+                  <HorizontalAlignment>Center</HorizontalAlignment>
+                  <VerticalAlignment>Center</VerticalAlignment>
+                  <Padding>
+                    <Left>0</Left>
+                    <Top>0</Top>
+                    <Right>0</Right>
+                    <Bottom>0</Bottom>
+                  </Padding>
+                </Font>
+                <Text>&lt;</Text>
+                <ScalingMode>None</ScalingMode>
+              </Text>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Image" Name="kneeboard right base" SnapTarget="False" Locked="True">
+              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
+              <Alignment>Stretched</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <Location>1683,761</Location>
+              <Size>35,37</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Kneeboard right button" SnapTarget="True" Locked="True">
+              <Location>1689,766</Location>
+              <Size>22,22</Size>
+              <Hidden>False</Hidden>
+              <Type>Momentary</Type>
+              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Norm.png</Image>
+              <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Pressed.png</PushedImage>
+              <Text>
+                <Color>#FFFFFFFF</Color>
+                <Font>
+                  <FontFamily>Franklin Gothic</FontFamily>
+                  <FontStyle>Normal</FontStyle>
+                  <FontWeight>Normal</FontWeight>
+                  <FontSize>18</FontSize>
+                  <HorizontalAlignment>Center</HorizontalAlignment>
+                  <VerticalAlignment>Center</VerticalAlignment>
+                  <Padding>
+                    <Left>0</Left>
+                    <Top>0</Top>
+                    <Right>0</Right>
+                    <Bottom>0</Bottom>
+                  </Padding>
+                </Font>
+                <Text>&gt;</Text>
+                <ScalingMode>None</ScalingMode>
+              </Text>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Image" Name="Maps Base" SnapTarget="False" Locked="True">
+              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
+              <Alignment>Stretched</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <Location>1406,745</Location>
+              <Size>58,55</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Maps button" SnapTarget="True" Locked="True">
+              <Location>1415,752</Location>
+              <Size>37,34</Size>
+              <Hidden>False</Hidden>
+              <Type>Momentary</Type>
+              <Image>MadKreator37\F-15E\Buttons_And_Switches\Generic_Button_Norm.png</Image>
+              <PushedImage>MadKreator37\F-15E\Buttons_And_Switches\Generic_Button_Pressed.png</PushedImage>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Panel" Name="Left Console" SnapTarget="True" Locked="True">
@@ -2488,9 +2580,9 @@
                       <DefaultPosition>Two</DefaultPosition>
                       <Children />
                     </Control>
-                    <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="AntiSkid Switch 1" SnapTarget="True" Locked="True">
-                      <Location>250,161</Location>
-                      <Size>80,88</Size>
+                    <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="LDG Light Switch" SnapTarget="True" Locked="True">
+                      <Location>251,165</Location>
+                      <Size>80,75</Size>
                       <Hidden>False</Hidden>
                       <SwitchType>OnOnOn</SwitchType>
                       <Orientation>Vertical</Orientation>
@@ -4466,7 +4558,7 @@
                     <AllowInteractionLegacy>False</AllowInteractionLegacy>
                   </Interaction>
                   <Children>
-                    <Control TypeIdentifier="Helios.Base.Image" Name="JFS" SnapTarget="False" Locked="False">
+                    <Control TypeIdentifier="Helios.Base.Image" Name="JFS" SnapTarget="False" Locked="True">
                       <Image>MadKreator37/F-15E/Bezels_And_Faces/JFS_Panel.png</Image>
                       <Alignment>Stretched</Alignment>
                       <CornerRadius>0</CornerRadius>
@@ -4475,19 +4567,7 @@
                       <Hidden>False</Hidden>
                       <Children />
                     </Control>
-                    <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="JFS Handle Pull" SnapTarget="True" Locked="False">
-                      <Location>46,15</Location>
-                      <Size>117,168</Size>
-                      <Hidden>False</Hidden>
-                      <SwitchType>MomOn</SwitchType>
-                      <Orientation>Vertical</Orientation>
-                      <ClickType>Touch</ClickType>
-                      <PositionOneImage>MadKreator37/F-15E/Buttons_And_Switches/Jfs_Pulled.png</PositionOneImage>
-                      <PositionTwoImage>MadKreator37/F-15E/Buttons_And_Switches/Jfs_Norm.png</PositionTwoImage>
-                      <DefaultPosition>Two</DefaultPosition>
-                      <Children />
-                    </Control>
-                    <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Brakehold" SnapTarget="True" Locked="False">
+                    <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Brakehold" SnapTarget="True" Locked="True">
                       <Location>162,48</Location>
                       <Size>70,140</Size>
                       <Hidden>False</Hidden>
@@ -4499,10 +4579,47 @@
                       <DefaultPosition>Two</DefaultPosition>
                       <Children />
                     </Control>
+                    <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Handle norm " SnapTarget="True" Locked="True">
+                      <Location>32,3</Location>
+                      <Size>131,174</Size>
+                      <Hidden>False</Hidden>
+                      <SwitchType>MomOn</SwitchType>
+                      <Orientation>Vertical</Orientation>
+                      <ClickType>Touch</ClickType>
+                      <PositionOneImage>MadKreator37\F-15E\Buttons_And_Switches\Jfs_Pulled.png</PositionOneImage>
+                      <PositionTwoImage>MadKreator37\F-15E\Buttons_And_Switches\Jfs_Norm.png</PositionTwoImage>
+                      <DefaultPosition>Two</DefaultPosition>
+                      <Children />
+                    </Control>
+                    <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Handle rotate" SnapTarget="True" Locked="True">
+                      <Location>21,1</Location>
+                      <Size>142,176</Size>
+                      <Hidden>True</Hidden>
+                      <SwitchType>MomOn</SwitchType>
+                      <Orientation>Vertical</Orientation>
+                      <ClickType>Touch</ClickType>
+                      <PositionOneImage>MadKreator37\F-15E\Buttons_And_Switches\Jfs_Rotate_Pulled.png</PositionOneImage>
+                      <PositionTwoImage>MadKreator37\F-15E\Buttons_And_Switches\Jfs_Rotate.png</PositionTwoImage>
+                      <DefaultPosition>Two</DefaultPosition>
+                      <Children />
+                    </Control>
+                    <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="transparent switch" SnapTarget="True" Locked="True">
+                      <Location>11,85</Location>
+                      <Size>91,152</Size>
+                      <Rotation>CCW</Rotation>
+                      <Hidden>False</Hidden>
+                      <SwitchType>OnOn</SwitchType>
+                      <Orientation>Vertical</Orientation>
+                      <ClickType>Swipe</ClickType>
+                      <PositionOneImage>MadKreator37\F-15E\Transparent_Image.png</PositionOneImage>
+                      <PositionTwoImage>MadKreator37\F-15E\Transparent_Image.png</PositionTwoImage>
+                      <DefaultPosition>One</DefaultPosition>
+                      <Children />
+                    </Control>
                   </Children>
                 </Control>
                 <Control TypeIdentifier="Helios.F15E.EngineMonitorPanel" Name="Engine Monitor Panel" SnapTarget="True" Locked="True">
-                  <Location>-3,278</Location>
+                  <Location>-3,308</Location>
                   <Size>357,332</Size>
                   <Hidden>False</Hidden>
                   <GlassReflectionOpacity>0.3</GlassReflectionOpacity>
@@ -4815,283 +4932,6 @@
                   <Children />
                 </Control>
               </Children>
-            </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="Spare 2 base" SnapTarget="False" Locked="True">
-              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
-              <Alignment>Stretched</Alignment>
-              <CornerRadius>0</CornerRadius>
-              <Location>1072,915</Location>
-              <Size>58,59</Size>
-              <Hidden>False</Hidden>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="F6 base" SnapTarget="False" Locked="True">
-              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
-              <Alignment>Stretched</Alignment>
-              <CornerRadius>0</CornerRadius>
-              <Location>1024,915</Location>
-              <Size>58,59</Size>
-              <Hidden>False</Hidden>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="f10 base" SnapTarget="False" Locked="True">
-              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
-              <Alignment>Stretched</Alignment>
-              <CornerRadius>0</CornerRadius>
-              <Location>1072,865</Location>
-              <Size>58,59</Size>
-              <Hidden>False</Hidden>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="F1 BASE" SnapTarget="False" Locked="True">
-              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
-              <Alignment>Stretched</Alignment>
-              <CornerRadius>0</CornerRadius>
-              <Location>1024,865</Location>
-              <Size>58,59</Size>
-              <Hidden>False</Hidden>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.PushButton" Name="F1 Button" SnapTarget="True" Locked="True">
-              <Location>1033,872</Location>
-              <Size>37,37</Size>
-              <Hidden>False</Hidden>
-              <Type>Momentary</Type>
-              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Norm.png</Image>
-              <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Pressed.png</PushedImage>
-              <Text>
-                <Color>#FFFEFEFE</Color>
-                <Font>
-                  <FontFamily>Franklin Gothic</FontFamily>
-                  <FontStyle>Normal</FontStyle>
-                  <FontWeight>Normal</FontWeight>
-                  <FontSize>12</FontSize>
-                  <HorizontalAlignment>Center</HorizontalAlignment>
-                  <VerticalAlignment>Center</VerticalAlignment>
-                  <Padding>
-                    <Left>0</Left>
-                    <Top>0</Top>
-                    <Right>0</Right>
-                    <Bottom>0</Bottom>
-                  </Padding>
-                </Font>
-                <Text>F1      CKPT</Text>
-                <ScalingMode>None</ScalingMode>
-              </Text>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.PushButton" Name="F10 button" SnapTarget="True" Locked="True">
-              <Location>1081,872</Location>
-              <Size>37,37</Size>
-              <Hidden>False</Hidden>
-              <Type>Momentary</Type>
-              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Norm.png</Image>
-              <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Pressed.png</PushedImage>
-              <Text>
-                <Color>#FFFEFEFE</Color>
-                <Font>
-                  <FontFamily>Franklin Gothic</FontFamily>
-                  <FontStyle>Normal</FontStyle>
-                  <FontWeight>Normal</FontWeight>
-                  <FontSize>12</FontSize>
-                  <HorizontalAlignment>Center</HorizontalAlignment>
-                  <VerticalAlignment>Center</VerticalAlignment>
-                  <Padding>
-                    <Left>0</Left>
-                    <Top>0</Top>
-                    <Right>0</Right>
-                    <Bottom>0</Bottom>
-                  </Padding>
-                </Font>
-                <Text>F10      MAP</Text>
-                <ScalingMode>None</ScalingMode>
-              </Text>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.PushButton" Name="Spare button 2" SnapTarget="True" Locked="True">
-              <Location>1081,922</Location>
-              <Size>37,37</Size>
-              <Hidden>False</Hidden>
-              <Type>Momentary</Type>
-              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Norm.png</Image>
-              <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Pressed.png</PushedImage>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.PushButton" Name="F6 Button" SnapTarget="True" Locked="True">
-              <Location>1033,922</Location>
-              <Size>37,37</Size>
-              <Hidden>False</Hidden>
-              <Type>Momentary</Type>
-              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Norm.png</Image>
-              <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Pressed.png</PushedImage>
-              <Text>
-                <Color>#FFFFFFFF</Color>
-                <Font>
-                  <FontFamily>Franklin Gothic</FontFamily>
-                  <FontStyle>Normal</FontStyle>
-                  <FontWeight>Normal</FontWeight>
-                  <FontSize>12</FontSize>
-                  <HorizontalAlignment>Center</HorizontalAlignment>
-                  <VerticalAlignment>Center</VerticalAlignment>
-                  <Padding>
-                    <Left>0</Left>
-                    <Top>0</Top>
-                    <Right>0</Right>
-                    <Bottom>0</Bottom>
-                  </Padding>
-                </Font>
-                <Text>F6     WPN</Text>
-                <ScalingMode>None</ScalingMode>
-              </Text>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="ESC base" SnapTarget="False" Locked="True">
-              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
-              <Alignment>Stretched</Alignment>
-              <CornerRadius>0</CornerRadius>
-              <Location>803,915</Location>
-              <Size>58,59</Size>
-              <Hidden>False</Hidden>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="Kneeboard base" SnapTarget="False" Locked="True">
-              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
-              <Alignment>Stretched</Alignment>
-              <CornerRadius>0</CornerRadius>
-              <Location>755,915</Location>
-              <Size>58,59</Size>
-              <Hidden>False</Hidden>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="Rearm base" SnapTarget="False" Locked="True">
-              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
-              <Alignment>Stretched</Alignment>
-              <CornerRadius>0</CornerRadius>
-              <Location>803,865</Location>
-              <Size>58,59</Size>
-              <Hidden>False</Hidden>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="Brief Base" SnapTarget="False" Locked="True">
-              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
-              <Alignment>Stretched</Alignment>
-              <CornerRadius>0</CornerRadius>
-              <Location>755,865</Location>
-              <Size>58,59</Size>
-              <Hidden>False</Hidden>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.PushButton" Name="Kneeboard Button" SnapTarget="True" Locked="True">
-              <Location>764,922</Location>
-              <Size>37,37</Size>
-              <Hidden>False</Hidden>
-              <Type>Momentary</Type>
-              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Norm.png</Image>
-              <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Pressed.png</PushedImage>
-              <Text>
-                <Color>#FFFFFFFF</Color>
-                <Font>
-                  <FontFamily>Franklin Gothic</FontFamily>
-                  <FontStyle>Normal</FontStyle>
-                  <FontWeight>Normal</FontWeight>
-                  <FontSize>11</FontSize>
-                  <HorizontalAlignment>Center</HorizontalAlignment>
-                  <VerticalAlignment>Center</VerticalAlignment>
-                  <Padding>
-                    <Left>0</Left>
-                    <Top>0</Top>
-                    <Right>0</Right>
-                    <Bottom>0</Bottom>
-                  </Padding>
-                </Font>
-                <Text>KNEE     BOARD</Text>
-                <ScalingMode>None</ScalingMode>
-              </Text>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.PushButton" Name="ESC button" SnapTarget="True" Locked="True">
-              <Location>813,922</Location>
-              <Size>37,37</Size>
-              <Hidden>False</Hidden>
-              <Type>Momentary</Type>
-              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Norm.png</Image>
-              <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Pressed.png</PushedImage>
-              <Text>
-                <Color>#FFFDFDFD</Color>
-                <Font>
-                  <FontFamily>Franklin Gothic</FontFamily>
-                  <FontStyle>Normal</FontStyle>
-                  <FontWeight>Normal</FontWeight>
-                  <FontSize>12</FontSize>
-                  <HorizontalAlignment>Center</HorizontalAlignment>
-                  <VerticalAlignment>Center</VerticalAlignment>
-                  <Padding>
-                    <Left>0</Left>
-                    <Top>0</Top>
-                    <Right>0</Right>
-                    <Bottom>0</Bottom>
-                  </Padding>
-                </Font>
-                <Text>ESC</Text>
-                <ScalingMode>None</ScalingMode>
-              </Text>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.PushButton" Name="Brief Button" SnapTarget="True" Locked="True">
-              <Location>764,872</Location>
-              <Size>37,37</Size>
-              <Hidden>False</Hidden>
-              <Type>Momentary</Type>
-              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Norm.png</Image>
-              <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Pressed.png</PushedImage>
-              <Text>
-                <Color>#FFFDFDFD</Color>
-                <Font>
-                  <FontFamily>Franklin Gothic</FontFamily>
-                  <FontStyle>Normal</FontStyle>
-                  <FontWeight>Normal</FontWeight>
-                  <FontSize>12</FontSize>
-                  <HorizontalAlignment>Center</HorizontalAlignment>
-                  <VerticalAlignment>Center</VerticalAlignment>
-                  <Padding>
-                    <Left>0</Left>
-                    <Top>0</Top>
-                    <Right>0</Right>
-                    <Bottom>0</Bottom>
-                  </Padding>
-                </Font>
-                <Text>BRIEF</Text>
-                <ScalingMode>None</ScalingMode>
-              </Text>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.PushButton" Name="Rearm Button" SnapTarget="True" Locked="True">
-              <Location>812,872</Location>
-              <Size>37,37</Size>
-              <Hidden>False</Hidden>
-              <Type>Momentary</Type>
-              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Norm.png</Image>
-              <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Pressed.png</PushedImage>
-              <Text>
-                <Color>#FFFFFFFF</Color>
-                <Font>
-                  <FontFamily>Franklin Gothic</FontFamily>
-                  <FontStyle>Normal</FontStyle>
-                  <FontWeight>Normal</FontWeight>
-                  <FontSize>11</FontSize>
-                  <HorizontalAlignment>Center</HorizontalAlignment>
-                  <VerticalAlignment>Center</VerticalAlignment>
-                  <Padding>
-                    <Left>0</Left>
-                    <Top>0</Top>
-                    <Right>0</Right>
-                    <Bottom>0</Bottom>
-                  </Padding>
-                </Font>
-                <Text>REARM</Text>
-                <ScalingMode>None</ScalingMode>
-              </Text>
-              <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.Image" Name="Gauge Shadow Clock" SnapTarget="False" Locked="True">
               <Image>MadKreator37/F-15E/Bezels_And_Faces/Generic_Bezel_Shadow.png</Image>
@@ -5565,7 +5405,7 @@
                   <Hidden>False</Hidden>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.Potentiometer" Name="Waterline" SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.Potentiometer" Name="Pitch Offset knob" SnapTarget="True" Locked="True">
                   <Location>105,103</Location>
                   <Size>45,45</Size>
                   <Hidden>False</Hidden>
@@ -6044,16 +5884,16 @@
                 <AllowInteractionLegacy>False</AllowInteractionLegacy>
               </Interaction>
               <Children>
-                <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Handle" SnapTarget="True" Locked="False">
+                <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Handle" SnapTarget="True" Locked="True">
                   <Location>0,0</Location>
                   <Size>106,213</Size>
                   <Hidden>False</Hidden>
                   <SwitchType>OnOn</SwitchType>
                   <Orientation>Vertical</Orientation>
                   <ClickType>Touch</ClickType>
-                  <PositionOneImage>MadKreator37/F-15E/Buttons_And_Switches/Emerg_LG_Handle_Pulled.png</PositionOneImage>
-                  <PositionTwoImage>MadKreator37/F-15E/Buttons_And_Switches/Emerg_LG_Handle_Normal.png</PositionTwoImage>
-                  <DefaultPosition>Two</DefaultPosition>
+                  <PositionOneImage>MadKreator37\F-15E\Buttons_And_Switches\Emerg_LG_Handle_Normal.png</PositionOneImage>
+                  <PositionTwoImage>MadKreator37\F-15E\Buttons_And_Switches\Emerg_LG_Handle_Pulled.png</PositionTwoImage>
+                  <DefaultPosition>One</DefaultPosition>
                   <Children />
                 </Control>
               </Children>
@@ -6084,7 +5924,7 @@
               </Children>
             </Control>
             <Control TypeIdentifier="Helios.Panel" Name="Rudd Adj Panel" SnapTarget="True" Locked="True">
-              <Location>1119,971</Location>
+              <Location>1119,977</Location>
               <Size>106,103</Size>
               <Hidden>False</Hidden>
               <Background />
@@ -6145,6 +5985,15 @@
               </Text>
               <Children />
             </Control>
+            <Control TypeIdentifier="Helios.Base.Image" Name="Maps Base2" SnapTarget="False" Locked="True">
+              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
+              <Alignment>Stretched</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <Location>1168,915</Location>
+              <Size>58,59</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
             <Control TypeIdentifier="Helios.Base.Text" Name="CC Label" SnapTarget="True" Locked="True">
               <FillBackground>False</FillBackground>
               <BackgroundColor>#FF34CA8D</BackgroundColor>
@@ -6168,6 +6017,402 @@
               <Location>112,960</Location>
               <Size>118,20</Size>
               <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Image" Name="ESC base" SnapTarget="False" Locked="True">
+              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
+              <Alignment>Stretched</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <Location>803,915</Location>
+              <Size>58,59</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Image" Name="Spare2 base" SnapTarget="False" Locked="True">
+              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
+              <Alignment>Stretched</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <Location>755,915</Location>
+              <Size>58,59</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Image" Name="Rearm base" SnapTarget="False" Locked="True">
+              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
+              <Alignment>Stretched</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <Location>750,867</Location>
+              <Size>116,48</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Image" Name="Brief Base" SnapTarget="False" Locked="True">
+              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
+              <Alignment>Stretched</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <Location>654,867</Location>
+              <Size>116,48</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Spare 2 Button" SnapTarget="True" Locked="True">
+              <Location>764,922</Location>
+              <Size>37,37</Size>
+              <Hidden>False</Hidden>
+              <Type>Momentary</Type>
+              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Norm.png</Image>
+              <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Pressed.png</PushedImage>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="ESC button" SnapTarget="True" Locked="True">
+              <Location>813,922</Location>
+              <Size>37,37</Size>
+              <Hidden>False</Hidden>
+              <Type>Momentary</Type>
+              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Norm.png</Image>
+              <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Pressed.png</PushedImage>
+              <Text>
+                <Color>#FFFDFDFD</Color>
+                <Font>
+                  <FontFamily>Franklin Gothic</FontFamily>
+                  <FontStyle>Normal</FontStyle>
+                  <FontWeight>Normal</FontWeight>
+                  <FontSize>14</FontSize>
+                  <HorizontalAlignment>Center</HorizontalAlignment>
+                  <VerticalAlignment>Center</VerticalAlignment>
+                  <Padding>
+                    <Left>0</Left>
+                    <Top>0</Top>
+                    <Right>0</Right>
+                    <Bottom>0</Bottom>
+                  </Padding>
+                </Font>
+                <Text>ESC</Text>
+                <ScalingMode>None</ScalingMode>
+              </Text>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Brief Button" SnapTarget="True" Locked="True">
+              <Location>670,874</Location>
+              <Size>80,28</Size>
+              <Hidden>False</Hidden>
+              <Type>Momentary</Type>
+              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Norm.png</Image>
+              <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Pressed.png</PushedImage>
+              <Text>
+                <Color>#FFFDFDFD</Color>
+                <Font>
+                  <FontFamily>Franklin Gothic</FontFamily>
+                  <FontStyle>Normal</FontStyle>
+                  <FontWeight>Normal</FontWeight>
+                  <FontSize>13</FontSize>
+                  <HorizontalAlignment>Center</HorizontalAlignment>
+                  <VerticalAlignment>Center</VerticalAlignment>
+                  <Padding>
+                    <Left>0</Left>
+                    <Top>0</Top>
+                    <Right>0</Right>
+                    <Bottom>0</Bottom>
+                  </Padding>
+                </Font>
+                <Text>BRIEFING</Text>
+                <ScalingMode>None</ScalingMode>
+              </Text>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Rearm Button" SnapTarget="True" Locked="True">
+              <Location>767,874</Location>
+              <Size>80,28</Size>
+              <Hidden>False</Hidden>
+              <Type>Momentary</Type>
+              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Norm.png</Image>
+              <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Pressed.png</PushedImage>
+              <Text>
+                <Color>#FFFFFFFF</Color>
+                <Font>
+                  <FontFamily>Franklin Gothic</FontFamily>
+                  <FontStyle>Normal</FontStyle>
+                  <FontWeight>Normal</FontWeight>
+                  <FontSize>13</FontSize>
+                  <HorizontalAlignment>Center</HorizontalAlignment>
+                  <VerticalAlignment>Center</VerticalAlignment>
+                  <Padding>
+                    <Left>0</Left>
+                    <Top>0</Top>
+                    <Right>0</Right>
+                    <Bottom>0</Bottom>
+                  </Padding>
+                </Font>
+                <Text>REARM</Text>
+                <ScalingMode>None</ScalingMode>
+              </Text>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Image" Name="Spare2 base 1" SnapTarget="False" Locked="True">
+              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
+              <Alignment>Stretched</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <Location>707,915</Location>
+              <Size>58,59</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Spare 2 Button 1" SnapTarget="True" Locked="True">
+              <Location>716,922</Location>
+              <Size>37,37</Size>
+              <Hidden>False</Hidden>
+              <Type>Momentary</Type>
+              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Norm.png</Image>
+              <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Pressed.png</PushedImage>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Image" Name="Spare2 base 1 1" SnapTarget="False" Locked="True">
+              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
+              <Alignment>Stretched</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <Location>659,915</Location>
+              <Size>58,59</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Spare 2 Button 1 1" SnapTarget="True" Locked="True">
+              <Location>668,922</Location>
+              <Size>37,37</Size>
+              <Hidden>False</Hidden>
+              <Type>Momentary</Type>
+              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Norm.png</Image>
+              <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Pressed.png</PushedImage>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Image" Name="F6 base" SnapTarget="False" Locked="True">
+              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
+              <Alignment>Stretched</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <Location>1120,915</Location>
+              <Size>58,59</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Image" Name="f10 base" SnapTarget="False" Locked="True">
+              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
+              <Alignment>Stretched</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <Location>1072,915</Location>
+              <Size>58,59</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Image" Name="F1 BASE" SnapTarget="False" Locked="True">
+              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
+              <Alignment>Stretched</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <Location>1024,915</Location>
+              <Size>58,59</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="F1 Button" SnapTarget="True" Locked="True">
+              <Location>1033,922</Location>
+              <Size>37,37</Size>
+              <Hidden>False</Hidden>
+              <Type>Momentary</Type>
+              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Norm.png</Image>
+              <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Pressed.png</PushedImage>
+              <Text>
+                <Color>#FFFEFEFE</Color>
+                <Font>
+                  <FontFamily>Franklin Gothic</FontFamily>
+                  <FontStyle>Normal</FontStyle>
+                  <FontWeight>Normal</FontWeight>
+                  <FontSize>13</FontSize>
+                  <HorizontalAlignment>Center</HorizontalAlignment>
+                  <VerticalAlignment>Center</VerticalAlignment>
+                  <Padding>
+                    <Left>0</Left>
+                    <Top>0</Top>
+                    <Right>0</Right>
+                    <Bottom>0</Bottom>
+                  </Padding>
+                </Font>
+                <Text>F1      CKPT</Text>
+                <ScalingMode>None</ScalingMode>
+              </Text>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="F10 button" SnapTarget="True" Locked="True">
+              <Location>1081,922</Location>
+              <Size>37,37</Size>
+              <Hidden>False</Hidden>
+              <Type>Momentary</Type>
+              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Norm.png</Image>
+              <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Pressed.png</PushedImage>
+              <Text>
+                <Color>#FFFEFEFE</Color>
+                <Font>
+                  <FontFamily>Franklin Gothic</FontFamily>
+                  <FontStyle>Normal</FontStyle>
+                  <FontWeight>Normal</FontWeight>
+                  <FontSize>13</FontSize>
+                  <HorizontalAlignment>Center</HorizontalAlignment>
+                  <VerticalAlignment>Center</VerticalAlignment>
+                  <Padding>
+                    <Left>0</Left>
+                    <Top>0</Top>
+                    <Right>0</Right>
+                    <Bottom>0</Bottom>
+                  </Padding>
+                </Font>
+                <Text>F10      MAP</Text>
+                <ScalingMode>None</ScalingMode>
+              </Text>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Maps button" SnapTarget="True" Locked="True">
+              <Location>1177,922</Location>
+              <Size>37,37</Size>
+              <Hidden>False</Hidden>
+              <Type>Momentary</Type>
+              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Norm.png</Image>
+              <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Pressed.png</PushedImage>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="F6 Button" SnapTarget="True" Locked="True">
+              <Location>1129,922</Location>
+              <Size>37,37</Size>
+              <Hidden>False</Hidden>
+              <Type>Momentary</Type>
+              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Norm.png</Image>
+              <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Pressed.png</PushedImage>
+              <Text>
+                <Color>#FFFFFFFF</Color>
+                <Font>
+                  <FontFamily>Franklin Gothic</FontFamily>
+                  <FontStyle>Normal</FontStyle>
+                  <FontWeight>Normal</FontWeight>
+                  <FontSize>13</FontSize>
+                  <HorizontalAlignment>Center</HorizontalAlignment>
+                  <VerticalAlignment>Center</VerticalAlignment>
+                  <Padding>
+                    <Left>0</Left>
+                    <Top>0</Top>
+                    <Right>0</Right>
+                    <Bottom>0</Bottom>
+                  </Padding>
+                </Font>
+                <Text>F6     WPN</Text>
+                <ScalingMode>None</ScalingMode>
+              </Text>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Image" Name="Kneeboard base " SnapTarget="False" Locked="True">
+              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
+              <Alignment>Stretched</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <Location>1053,867</Location>
+              <Size>143,48</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Kneeboard Button " SnapTarget="True" Locked="True">
+              <Location>1073,874</Location>
+              <Size>98,26</Size>
+              <Hidden>False</Hidden>
+              <Type>Momentary</Type>
+              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Norm.png</Image>
+              <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Pressed.png</PushedImage>
+              <Text>
+                <Color>#FFFDFDFD</Color>
+                <Font>
+                  <FontFamily>Franklin Gothic</FontFamily>
+                  <FontStyle>Normal</FontStyle>
+                  <FontWeight>Normal</FontWeight>
+                  <FontSize>14</FontSize>
+                  <HorizontalAlignment>Center</HorizontalAlignment>
+                  <VerticalAlignment>Center</VerticalAlignment>
+                  <Padding>
+                    <Left>0</Left>
+                    <Top>0</Top>
+                    <Right>0</Right>
+                    <Bottom>0</Bottom>
+                  </Padding>
+                </Font>
+                <Text>KNEEBOARD</Text>
+                <ScalingMode>None</ScalingMode>
+              </Text>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Image" Name="kneeboard left base" SnapTarget="False" Locked="True">
+              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
+              <Alignment>Stretched</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <Location>1027,867</Location>
+              <Size>42,46</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Kneeboard left button" SnapTarget="True" Locked="True">
+              <Location>1035,874</Location>
+              <Size>25,26</Size>
+              <Hidden>False</Hidden>
+              <Type>Momentary</Type>
+              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Norm.png</Image>
+              <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Pressed.png</PushedImage>
+              <Text>
+                <Color>#FFFFFFFF</Color>
+                <Font>
+                  <FontFamily>Franklin Gothic</FontFamily>
+                  <FontStyle>Normal</FontStyle>
+                  <FontWeight>Normal</FontWeight>
+                  <FontSize>18</FontSize>
+                  <HorizontalAlignment>Center</HorizontalAlignment>
+                  <VerticalAlignment>Center</VerticalAlignment>
+                  <Padding>
+                    <Left>0</Left>
+                    <Top>0</Top>
+                    <Right>0</Right>
+                    <Bottom>0</Bottom>
+                  </Padding>
+                </Font>
+                <Text>&lt;</Text>
+                <ScalingMode>None</ScalingMode>
+              </Text>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Image" Name="kneeboard right base" SnapTarget="False" Locked="True">
+              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
+              <Alignment>Stretched</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <Location>1179,867</Location>
+              <Size>42,46</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Kneeboard right button" SnapTarget="True" Locked="True">
+              <Location>1187,874</Location>
+              <Size>25,26</Size>
+              <Hidden>False</Hidden>
+              <Type>Momentary</Type>
+              <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Norm.png</Image>
+              <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Pressed.png</PushedImage>
+              <Text>
+                <Color>#FFFFFFFF</Color>
+                <Font>
+                  <FontFamily>Franklin Gothic</FontFamily>
+                  <FontStyle>Normal</FontStyle>
+                  <FontWeight>Normal</FontWeight>
+                  <FontSize>18</FontSize>
+                  <HorizontalAlignment>Center</HorizontalAlignment>
+                  <VerticalAlignment>Center</VerticalAlignment>
+                  <Padding>
+                    <Left>0</Left>
+                    <Top>0</Top>
+                    <Right>0</Right>
+                    <Bottom>0</Bottom>
+                  </Padding>
+                </Font>
+                <Text>&gt;</Text>
+                <ScalingMode>None</ScalingMode>
+              </Text>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Panel" Name="WSO Consoles" SnapTarget="True" Locked="True">
@@ -7151,7 +7396,7 @@
                 </Control>
               </Children>
             </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="Button Base" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.Image" Name="Console Button Base" SnapTarget="False" Locked="True">
               <Image>MadKreator37/F-15E/Bezels_And_Faces/WSO_Buttons_Housing.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
@@ -7332,13 +7577,13 @@
           <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
-          <Location>1405,715</Location>
+          <Location>1406,695</Location>
           <Size>57,58</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.PushButton" Name="WSO Seat Button" SnapTarget="True" Locked="True">
-          <Location>1414,722</Location>
+          <Location>1415,702</Location>
           <Size>37,37</Size>
           <Hidden>False</Hidden>
           <Type>Momentary</Type>
@@ -7727,7 +7972,7 @@
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Flight Instruments.ADI Pitch adjustment offset.changed" />
-      <Action Target="Visual;Monitor 1.Pilot Controls.ADI Panel.Waterline Adjust;Helios.Base.Potentiometer;Waterline Adjust" Name="set.value" />
+      <Action Target="Visual;Monitor 1.Pilot Controls.ADI Panel.pitch offset knob;Helios.Base.Potentiometer;pitch offset knob" Name="set.value" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -9127,7 +9372,7 @@
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Lights External.Landing/Taxi Light Switch.changed" />
-      <Action Target="Visual;Monitor 1.Pilot Controls.Left Console.Misc-Fuel Panel.AntiSkid Switch 1;Helios.Base.ThreeWayToggleSwitch;AntiSkid Switch 1" Name="set.position" />
+      <Action Target="Visual;Monitor 1.Pilot Controls.Left Console.Misc-Fuel Panel.LDG Light Switch;Helios.Base.ThreeWayToggleSwitch;LDG Light Switch" Name="set.position" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -10207,17 +10452,12 @@
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Flight Instruments (WSO).ADI Pitch adjustment offset.changed" />
-      <Action Target="Visual;Monitor 1.WSO Controls.ADI.Waterline;Helios.Base.Potentiometer;Waterline" Name="set.value" />
+      <Action Target="Visual;Monitor 1.WSO Controls.ADI.Pitch Offset knob;Helios.Base.Potentiometer;Pitch Offset knob" Name="set.value" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Flight Instruments (WSO).ADI Uncage pull.changed" />
       <Action Target="Visual;Monitor 1.WSO Controls.ADI.uncage;Helios.Base.PushButton;uncage" Name="set.physical state" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Jet Fuel Starter/Brake Panel.Jet Fuel System Lever.changed" />
-      <Action Target="Visual;Monitor 1.Pilot Controls.Startup Console 2.JFS Panel.JFS Handle Pull;Helios.Base.ToggleSwitch;JFS Handle Pull" Name="set.position" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -10696,8 +10936,13 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Pilot Controls.ADI Panel.Waterline Adjust;Helios.Base.Potentiometer;Waterline Adjust" Name="value.changed" />
+      <Trigger Source="Visual;Monitor 1.Pilot Controls.ADI Panel.pitch offset knob;Helios.Base.Potentiometer;pitch offset knob" Name="value.changed" />
       <Action Target="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Flight Instruments.set.ADI Pitch adjustment offset" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Controls.ADI Panel.pitch offset knob;Helios.Base.Potentiometer;pitch offset knob" Name="value.changed" />
+      <Action Target="Visual;Monitor 1.Pilot Controls.ADI Panel.ADI Gauge (Pilot).Flight Instruments_ADI;Helios.F15E.Instruments.ADI;Flight Instruments_ADI" Name="Flight Instruments_ADI.set.ADI Pitch adjustment offset" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -11516,9 +11761,9 @@
       <StaticValue>{F10}</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Pilot Controls.Rearm button;Helios.Base.PushButton;Rearm button" Name="released" />
-      <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
-      <StaticValue>{LALT}'</StaticValue>
+      <Trigger Source="Visual;Monitor 1.Pilot Controls.Control Center button;Helios.Base.PushButton;Control Center button" Name="released" />
+      <Action Target="Interface;;Helios.Base.ProfileInterface;Profile" Name="show control center" />
+      <StaticValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 1.Pilot Controls.Briefing Button;Helios.Base.PushButton;Briefing Button" Name="released" />
@@ -11526,14 +11771,24 @@
       <StaticValue>{LALT}b</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Controls.Rearm button;Helios.Base.PushButton;Rearm button" Name="released" />
+      <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
+      <StaticValue>{LALT}'</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 1.Pilot Controls.Kneeboard Button;Helios.Base.PushButton;Kneeboard Button" Name="released" />
       <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
       <StaticValue>{RSHIFT}k</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Pilot Controls.Control Center button;Helios.Base.PushButton;Control Center button" Name="released" />
-      <Action Target="Interface;;Helios.Base.ProfileInterface;Profile" Name="show control center" />
-      <StaticValue />
+      <Trigger Source="Visual;Monitor 1.Pilot Controls.Kneeboard left button;Helios.Base.PushButton;Kneeboard left button" Name="released" />
+      <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
+      <StaticValue>[</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Controls.Kneeboard right button;Helios.Base.PushButton;Kneeboard right button" Name="released" />
+      <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
+      <StaticValue>]</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 1.Pilot Controls.Left Console.Ext Light  Sensor Panel.TF RDR Switch;Helios.Base.ThreeWayToggleSwitch;TF RDR Switch" Name="position.changed" />
@@ -11701,8 +11956,13 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Pilot Controls.Left Console.Misc-Fuel Panel.AntiSkid Switch 1;Helios.Base.ThreeWayToggleSwitch;AntiSkid Switch 1" Name="position.changed" />
+      <Trigger Source="Visual;Monitor 1.Pilot Controls.Left Console.Misc-Fuel Panel.LDG Light Switch;Helios.Base.ThreeWayToggleSwitch;LDG Light Switch" Name="position.changed" />
       <Action Target="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Lights External.set.Landing/Taxi Light Switch" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Controls.Left Console.Misc-Fuel Panel.LDG Light Switch;Helios.Base.ThreeWayToggleSwitch;LDG Light Switch" Name="position.changed" />
+      <Action Target="Visual;Monitor 1.Pilot Controls.Takeoff and Landing Panel.Ldg Taxi Switch;Helios.Base.ThreeWayToggleSwitch;Ldg Taxi Switch" Name="set.position" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -12161,6 +12421,11 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Controls.Takeoff and Landing Panel.Ldg Taxi Switch;Helios.Base.ThreeWayToggleSwitch;Ldg Taxi Switch" Name="position.changed" />
+      <Action Target="Visual;Monitor 1.Pilot Controls.Left Console.Misc-Fuel Panel.LDG Light Switch;Helios.Base.ThreeWayToggleSwitch;LDG Light Switch" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 1.Pilot Controls.Takeoff and Landing Panel.Flap Switch;Helios.Base.ToggleSwitch;Flap Switch" Name="position.changed" />
       <Action Target="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Throttle Quadrant.set.Flaps Control Switch" />
       <TriggerValue />
@@ -12221,18 +12486,68 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Pilot Controls.Startup Console 2.JFS Panel.JFS Handle Pull;Helios.Base.ToggleSwitch;JFS Handle Pull" Name="position.changed" />
-      <Action Target="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Jet Fuel Starter/Brake Panel.set.Jet Fuel System Lever" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 1.Pilot Controls.Startup Console 2.JFS Panel.Brakehold;Helios.Base.ToggleSwitch;Brakehold" Name="position.changed" />
       <Action Target="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Jet Fuel Starter/Brake Panel.set.Parking Brake Switch" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Controls.Startup Console 2.JFS Panel.Handle norm ;Helios.Base.ToggleSwitch;Handle norm " Name="position one.entered" />
+      <Action Target="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Jet Fuel Starter/Brake Panel.set.Jet Fuel System Lever" />
+      <StaticValue>1</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Controls.Startup Console 2.JFS Panel.Handle norm ;Helios.Base.ToggleSwitch;Handle norm " Name="position two.entered" />
+      <Action Target="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Jet Fuel Starter/Brake Panel.set.Jet Fuel System Lever" />
+      <StaticValue>2</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Controls.Startup Console 2.JFS Panel.Handle rotate;Helios.Base.ToggleSwitch;Handle rotate" Name="position one.entered" />
+      <Action Target="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Jet Fuel Starter/Brake Panel.set.Jet Fuel System Lever" />
+      <StaticValue>1</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Controls.Startup Console 2.JFS Panel.Handle rotate;Helios.Base.ToggleSwitch;Handle rotate" Name="position two.entered" />
+      <Action Target="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Jet Fuel Starter/Brake Panel.set.Jet Fuel System Lever" />
+      <StaticValue>2</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Controls.Startup Console 2.JFS Panel.transparent switch;Helios.Base.ToggleSwitch;transparent switch" Name="position one.entered" />
+      <Action Target="Visual;Monitor 1.Pilot Controls.Startup Console 2.JFS Panel.Handle norm ;Helios.Base.ToggleSwitch;Handle norm " Name="set.hidden" />
+      <StaticValue>false</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Controls.Startup Console 2.JFS Panel.transparent switch;Helios.Base.ToggleSwitch;transparent switch" Name="position two.entered" />
+      <Action Target="Visual;Monitor 1.Pilot Controls.Startup Console 2.JFS Panel.Handle norm ;Helios.Base.ToggleSwitch;Handle norm " Name="set.hidden" />
+      <StaticValue>true</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Controls.Startup Console 2.JFS Panel.transparent switch;Helios.Base.ToggleSwitch;transparent switch" Name="position two.entered" />
+      <Action Target="Visual;Monitor 1.Pilot Controls.Startup Console 2.JFS Panel.Handle rotate;Helios.Base.ToggleSwitch;Handle rotate" Name="set.hidden" />
+      <StaticValue>false</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Controls.Startup Console 2.JFS Panel.transparent switch;Helios.Base.ToggleSwitch;transparent switch" Name="position one.entered" />
+      <Action Target="Visual;Monitor 1.Pilot Controls.Startup Console 2.JFS Panel.Handle rotate;Helios.Base.ToggleSwitch;Handle rotate" Name="set.hidden" />
+      <StaticValue>true</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Controls.Startup Console 2.JFS Panel.transparent switch;Helios.Base.ToggleSwitch;transparent switch" Name="position two.entered" />
+      <Action Target="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Jet Fuel Starter/Brake Panel.set.Jet Fuel System Lever Rotation" />
+      <StaticValue>.5</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Controls.Startup Console 2.JFS Panel.transparent switch;Helios.Base.ToggleSwitch;transparent switch" Name="position one.entered" />
+      <Action Target="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Jet Fuel Starter/Brake Panel.set.Jet Fuel System Lever Rotation" />
+      <StaticValue>0</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 1.Pilot Controls.Startup Console 3.Canopy Handle;Helios.Base.RotarySwitch;Canopy Handle" Name="position.changed" />
       <Action Target="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Canopy.set.Canopy Handle" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Pilot Controls.Startup Console 3.Canopy Handle;Helios.Base.RotarySwitch;Canopy Handle" Name="position.changed" />
+      <Action Target="Visual;Monitor 1.WSO Controls.Canopy Panel.Canopy Handle;Helios.Base.RotarySwitch;Canopy Handle" Name="set.position" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -12741,41 +13056,6 @@
       <StaticValue>true</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.WSO Controls.F1 Button;Helios.Base.PushButton;F1 Button" Name="released" />
-      <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
-      <StaticValue>{F1}</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.WSO Controls.F10 button;Helios.Base.PushButton;F10 button" Name="released" />
-      <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
-      <StaticValue>{F10}</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.WSO Controls.F6 Button;Helios.Base.PushButton;F6 Button" Name="released" />
-      <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
-      <StaticValue>{F6}</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.WSO Controls.Kneeboard Button;Helios.Base.PushButton;Kneeboard Button" Name="released" />
-      <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
-      <StaticValue>{RSHIFT}k</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.WSO Controls.ESC button;Helios.Base.PushButton;ESC button" Name="released" />
-      <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
-      <StaticValue>{ESCAPE}</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.WSO Controls.Brief Button;Helios.Base.PushButton;Brief Button" Name="released" />
-      <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
-      <StaticValue>{LALT}b</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.WSO Controls.Rearm Button;Helios.Base.PushButton;Rearm Button" Name="released" />
-      <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
-      <StaticValue>{lALT}'</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 1.WSO Controls.Altimeter.Rotary Encoder;Helios.Base.RotaryEncoder;Rotary Encoder" Name="encoder.incremented" />
       <Action Target="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Flight Instruments (WSO).increment.Altitude adjust" />
       <TriggerValue />
@@ -12796,8 +13076,13 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.WSO Controls.ADI.Waterline;Helios.Base.Potentiometer;Waterline" Name="value.changed" />
+      <Trigger Source="Visual;Monitor 1.WSO Controls.ADI.Pitch Offset knob;Helios.Base.Potentiometer;Pitch Offset knob" Name="value.changed" />
       <Action Target="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Flight Instruments (WSO).set.ADI Pitch adjustment offset" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.WSO Controls.ADI.Pitch Offset knob;Helios.Base.Potentiometer;Pitch Offset knob" Name="value.changed" />
+      <Action Target="Visual;Monitor 1.WSO Controls.ADI.ADI Gauge (WSO).Flight Instruments (WSO)_ADI;Helios.F15E.Instruments.ADI;Flight Instruments (WSO)_ADI" Name="Flight Instruments (WSO)_ADI.set.ADI Pitch adjustment offset" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -14051,6 +14336,51 @@
       <StaticValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.WSO Controls.ESC button;Helios.Base.PushButton;ESC button" Name="released" />
+      <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
+      <StaticValue>{ESCAPE}</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.WSO Controls.Brief Button;Helios.Base.PushButton;Brief Button" Name="released" />
+      <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
+      <StaticValue>{LALT}b</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.WSO Controls.Rearm Button;Helios.Base.PushButton;Rearm Button" Name="released" />
+      <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
+      <StaticValue>{lALT}'</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.WSO Controls.F1 Button;Helios.Base.PushButton;F1 Button" Name="released" />
+      <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
+      <StaticValue>{F1}</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.WSO Controls.F10 button;Helios.Base.PushButton;F10 button" Name="released" />
+      <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
+      <StaticValue>{F10}</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.WSO Controls.F6 Button;Helios.Base.PushButton;F6 Button" Name="released" />
+      <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
+      <StaticValue>{F6}</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.WSO Controls.Kneeboard Button ;Helios.Base.PushButton;Kneeboard Button " Name="released" />
+      <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
+      <StaticValue>{RSHIFT}k</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.WSO Controls.Kneeboard left button;Helios.Base.PushButton;Kneeboard left button" Name="released" />
+      <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
+      <StaticValue>[</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.WSO Controls.Kneeboard right button;Helios.Base.PushButton;Kneeboard right button" Name="released" />
+      <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
+      <StaticValue>]</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 1.WSO Controls.WSO Consoles.Interior Lighting.Light Test Switch;Helios.Base.ToggleSwitch;Light Test Switch" Name="position.changed" />
       <Action Target="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Lights Internal Control Panel (WSO).set.Warning/Caution Lights Test" />
       <TriggerValue />
@@ -14683,6 +15013,11 @@
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 1.WSO Controls.Canopy Panel.Canopy Handle;Helios.Base.RotarySwitch;Canopy Handle" Name="position.changed" />
       <Action Target="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Canopy.set.Canopy Handle" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.WSO Controls.Canopy Panel.Canopy Handle;Helios.Base.RotarySwitch;Canopy Handle" Name="position.changed" />
+      <Action Target="Visual;Monitor 1.Pilot Controls.Startup Console 3.Canopy Handle;Helios.Base.RotarySwitch;Canopy Handle" Name="set.position" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
