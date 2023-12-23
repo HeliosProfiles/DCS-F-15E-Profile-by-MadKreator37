@@ -5539,6 +5539,7 @@
               <Location>1430,574</Location>
               <Size>490,499</Size>
               <Hidden>False</Hidden>
+              <BackgroundImage>{F-15E}/Images/UFC/UFC_Panel_base.png</BackgroundImage>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image" SnapTarget="False" Locked="True">
@@ -7214,6 +7215,7 @@
                       <Location>0,0</Location>
                       <Size>490,499</Size>
                       <Hidden>False</Hidden>
+                      <BackgroundImage>{F-15E}/Images/UFC/UFC_Panel_base.png</BackgroundImage>
                       <Children />
                     </Control>
                   </Children>
