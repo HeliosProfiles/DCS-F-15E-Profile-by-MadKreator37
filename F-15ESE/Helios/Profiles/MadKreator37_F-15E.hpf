@@ -8336,47 +8336,47 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Caution Panel (WSO).Display Flow Low Indicator.changed" />
+      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Caution Panel (WSO).Left Generator Indicator.changed" />
       <Action Target="Visual;Monitor 1.WSO Controls.Caution and Warning Panel (WSO).Caution and Warning Panel (WSO)_LGen;Helios.Base.Indicator;Caution and Warning Panel (WSO)_LGen" Name="Caution and Warning Panel (WSO)_LGen.set.indicator" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Caution Panel (WSO).Left Generator Indicator.changed" />
+      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Caution Panel (WSO).Right Generator Indicator.changed" />
       <Action Target="Visual;Monitor 1.WSO Controls.Caution and Warning Panel (WSO).Caution and Warning Panel (WSO)_RGen;Helios.Base.Indicator;Caution and Warning Panel (WSO)_RGen" Name="Caution and Warning Panel (WSO)_RGen.set.indicator" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Caution Panel (WSO).Right Generator Indicator.changed" />
+      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Caution Panel (WSO).EMIS Limit Indicator.changed" />
       <Action Target="Visual;Monitor 1.WSO Controls.Caution and Warning Panel (WSO).Caution and Warning Panel (WSO)_EmisLmt;Helios.Base.Indicator;Caution and Warning Panel (WSO)_EmisLmt" Name="Caution and Warning Panel (WSO)_EmisLmt.set.indicator" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Caution Panel (WSO).EMIS Limit Indicator.changed" />
+      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Caution Panel (WSO).Fuel Low Indicator.changed" />
       <Action Target="Visual;Monitor 1.WSO Controls.Caution and Warning Panel (WSO).Caution and Warning Panel (WSO)_FuelLow;Helios.Base.Indicator;Caution and Warning Panel (WSO)_FuelLow" Name="Caution and Warning Panel (WSO)_FuelLow.set.indicator" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Caution Panel (WSO).Fuel Low Indicator.changed" />
+      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Caution Panel (WSO).Nuclear Indicator.changed" />
       <Action Target="Visual;Monitor 1.WSO Controls.Caution and Warning Panel (WSO).Caution and Warning Panel (WSO)_Nuclear;Helios.Base.Indicator;Caution and Warning Panel (WSO)_Nuclear" Name="Caution and Warning Panel (WSO)_Nuclear.set.indicator" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Caution Panel (WSO).Nuclear Indicator.changed" />
+      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Caution Panel (WSO).Unarmed Indicator.changed" />
       <Action Target="Visual;Monitor 1.WSO Controls.Caution and Warning Panel (WSO).Caution and Warning Panel (WSO)_Unarmed;Helios.Base.Indicator;Caution and Warning Panel (WSO)_Unarmed" Name="Caution and Warning Panel (WSO)_Unarmed.set.indicator" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Caution Panel (WSO).Unarmed Indicator.changed" />
+      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Caution Panel (WSO).Chaff Indicator.changed" />
       <Action Target="Visual;Monitor 1.WSO Controls.Caution and Warning Panel (WSO).Caution and Warning Panel (WSO)_Chaff;Helios.Base.Indicator;Caution and Warning Panel (WSO)_Chaff" Name="Caution and Warning Panel (WSO)_Chaff.set.indicator" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Caution Panel (WSO).Chaff Indicator.changed" />
+      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Caution Panel (WSO).Flare Indicator.changed" />
       <Action Target="Visual;Monitor 1.WSO Controls.Caution and Warning Panel (WSO).Caution and Warning Panel (WSO)_Flare;Helios.Base.Indicator;Caution and Warning Panel (WSO)_Flare" Name="Caution and Warning Panel (WSO)_Flare.set.indicator" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Caution Panel (WSO).Flare Indicator.changed" />
+      <Trigger Source="Interface;;Helios.F15ESE;DCS F-15E Strike Eagle" Name="Caution Panel (WSO).Oxygen Indicator.changed" />
       <Action Target="Visual;Monitor 1.WSO Controls.Caution and Warning Panel (WSO).Caution and Warning Panel (WSO)_Oxygen;Helios.Base.Indicator;Caution and Warning Panel (WSO)_Oxygen" Name="Caution and Warning Panel (WSO)_Oxygen.set.indicator" />
       <TriggerValue />
     </Binding>
