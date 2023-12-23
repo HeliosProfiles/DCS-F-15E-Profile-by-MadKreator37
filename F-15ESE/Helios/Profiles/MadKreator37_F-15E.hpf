@@ -5536,7 +5536,7 @@
             </Control>
             <Control TypeIdentifier="Helios.F15E.UFC.WSO" Name="UFC Panel (WSO)" SnapTarget="True" Locked="True">
               <Location>1430,574</Location>
-              <Size>490,619</Size>
+              <Size>490,499</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
