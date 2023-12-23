@@ -4725,6 +4725,7 @@
               <Location>699,3</Location>
               <Size>524,676</Size>
               <Hidden>False</Hidden>
+			  <BackgroundImage>MadKreator37/F-15E/Bezels_And_Faces/UFC_Panel_Base.png</BackgroundImage>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="Left Console Button" SnapTarget="True" Locked="True">
