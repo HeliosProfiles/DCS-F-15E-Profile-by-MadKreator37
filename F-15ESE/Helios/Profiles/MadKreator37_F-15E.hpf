@@ -4725,7 +4725,7 @@
               <Location>699,3</Location>
               <Size>524,676</Size>
               <Hidden>False</Hidden>
-			  <BackgroundImage>MadKreator37/F-15E/Bezels_And_Faces/UFC_Panel_Base.png</BackgroundImage>
+              <BackgroundImage>MadKreator37/F-15E/Bezels_And_Faces/UFC_Panel_Base.png</BackgroundImage>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="Left Console Button" SnapTarget="True" Locked="True">
@@ -7212,7 +7212,7 @@
                   <Children>
                     <Control TypeIdentifier="Helios.F15E.UFC.WSO" Name="UFC Panel (WSO)" SnapTarget="True" Locked="True">
                       <Location>0,0</Location>
-                      <Size>490,619</Size>
+                      <Size>490,499</Size>
                       <Hidden>False</Hidden>
                       <Children />
                     </Control>
