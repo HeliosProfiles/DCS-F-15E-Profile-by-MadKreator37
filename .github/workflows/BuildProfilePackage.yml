@@ -30,7 +30,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v7
         with:
           fetch-depth: '0'
       - name: Set outputs
@@ -54,9 +54,9 @@ jobs:
           echo "Commit SHA (short) - " ${{ steps.vars.outputs.sha_short }}
           echo "New Release - V " ${{ steps.bump_tag.outputs.tag }}
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v7
         with:
-          python-version: '3.9'
+          python-version: '3.14'
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
